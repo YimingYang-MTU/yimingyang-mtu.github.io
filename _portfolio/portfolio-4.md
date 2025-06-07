@@ -1,6 +1,6 @@
 ---
-title: "SAE Autodrive Challenge II year 2 - 5"
-excerpt: "Graduate Research Assistant for teams: 1. controls and Mathworks, and 2. safety and testing. <br/><img src='/images/500x300.png'>"
+title: "V2X based rail-road crossing safety"
+excerpt: "Conduct experiment of V2X baed rail-road crossing alarm system in area <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
