@@ -1,6 +1,6 @@
 ---
-title: "V2X based rail-road crossing safety"
-excerpt: "Conduct experiment of V2X baed rail-road crossing alarm system in area <br/><img src='/images/500x300.png'>"
+title: "Traffic monitoring system based on AI"
+excerpt: "Conduct data-labeling for project "" <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
