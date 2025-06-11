@@ -1,6 +1,6 @@
 ---
 title: "Traffic monitoring system based on AI"
-excerpt: "Conduct data-labeling for project "" <br/><img src='/images/500x300.png'>"
+excerpt: "Conduct data-labeling for project <img src='/images/portfolio4/500x300.png'>"
 collection: portfolio
 ---
 
