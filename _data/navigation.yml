@@ -11,7 +11,7 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
+  - title: "presentations"
     url: /talks/    
 
   # - title: "Teaching"
@@ -25,7 +25,13 @@ main:
     
   - title: "CV"
     url: /cv/
-    
+  
+  - title: "RASL"
+    url: /rasl/
+
+  - title: "RSE"
+    url: /rse/
+
   # - title: "CV"
   #   url: /cv-json/
     
