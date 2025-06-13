@@ -22,24 +22,26 @@
         {% if nav.children != null %}
         <ul>
           {% for child in nav.children %}
-            {% comment %}internal/external URL check{% endcomment %}
-            {% if child.url contains "://" %}
-              {% assign domain = "" %}
-            {% else %}
-              {% assign domain = base_path %}
+            {% assign domain = child.url contains "://" ? "" : base_path %}
+            
+            {% comment %} Nuclear option for active detection {% endcomment %}
+            {% assign is_active = false %}
+            {% if page.url == child.url 
+                  or page.url contains child.url 
+                  or child.url != '/' and page.url contains child.url %}
+              {% assign is_active = true %}
             {% endif %}
 
-            {% comment %}set "active" class on current page{% endcomment %}
-            {% if child.url == page.url %}
-              {% assign active = "active" %}
-            {% else %}
-              {% assign active = "" %}
-            {% endif %}
-
-            <li><a href="{{ domain }}{{ child.url }}" class="{{ active }}">{{ child.title }}</a></li>
+            <li>
+              <a href="{{ domain }}{{ child.url }}" 
+                {% if is_active %}style="font-weight:bold !important; color:red !important; border-bottom:2px solid red !important;"{% endif %}>
+                {{ child.title }}
+              </a>
+            </li>
           {% endfor %}
         </ul>
         {% endif %}
+
       </li>
     {% endfor %}
   </ul>

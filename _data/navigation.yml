@@ -10,27 +10,33 @@
 main:
   - title: "Publications"
     url: /publications/
+    highlight: true
 
   - title: "Presentations"
     url: /talks/    
+    highlight: true
 
   # - title: "Teaching"
   #   url: /teaching/    
     
   - title: "Portfolio"
     url: /portfolio/
+    highlight: true
         
   # - title: "Blog Posts"
   #   url: /year-archive/
     
   - title: "CV"
     url: /cv/
+    highlight: true
   
   - title: "RASL"
     url: /rasl/
+    highlight: true
 
   - title: "RSE"
     url: /rse/
+    highlight: true
 
   # - title: "CV"
   #   url: /cv-json/

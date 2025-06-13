@@ -51,7 +51,7 @@ collection: portfolio
 - **Object**: Vehicle interface and control through CAN messaging.  
 
 1. **Achievement 1** : dSpace - CAN buses communication via bus configuration.   
-  <img src="/images/portfolio1/trunk_rack_year2.jpg" alt="Trunk Rack" width="500" />  
+  <img src="/images/portfolio1/dspace_in_trunk.jpg" alt="Trunk Rack" width="500" />  
 1. **Achievement 2** : Steering-by-wire control via dSpace.   
   <img src="/images/portfolio1/steering_test.gif" alt="Steering Test" width="500" />  
 1. **Achievement 3** : Propulsion and brake-by-wire control via dSpace.   

@@ -7,19 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I'm now a Ph.D. student in the department of Electrical and Computer Engineering, my research focus on perception and control of autonomous vehicle in adverse winter weather conditions.
+I'm a Ph.D. student in the Department of Electrical and Computer Engineering at Michigan Technological University. Located in Michigan’s Upper Peninsula—a region known for extreme snowfall, often exceeding 200 inches annually—my research focuses on autonomy in adverse weather conditions. I'm working with Dr. Jeremy P. Bos and my work aims to enhance perception and control systems for reliable operation in challenging environments.
 
-Perception system assessment under adverse winter weather conditions
-------
-On-going: we are working on evaluate how falling snow influence Lidar-based object detection performance.
+## Research directions ##
 
-Navigation on snow-covered white-out road surfaces in winter
-------
-We proposed anRGB-Thermal fusion based wheel track detection method.
-
-Aggressive Autonomous control on snow and ice
-------
-For this research, we tested the behavior of Model Predictive Path Integral (MPPI) on three different road surfaces to figure out how friction influence vheile control.
+1. Perception system assessment under adverse winter weather conditions
+2. Navigation through snow-covered white-out environment in winter
+3. Aggressive Autonomous control on snow and ice
 
 <!-- **Markdown generator**
 

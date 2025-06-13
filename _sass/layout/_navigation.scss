@@ -167,61 +167,61 @@
   border-top: 1px solid var(--global-border-color);
 }
 
-
 /*
    Priority plus navigation
    ========================================================================== */
 
-.greedy-nav {
-  position: relative;
-  min-width: 250px;
-  background: var(--global-bg-color);
+  .greedy-nav {
+    position: relative;
+    min-width: 250px;
+    background: var(--global-bg-color);
 
-  a {
-    display: block;
-    margin: 0 1rem;
-    padding: 0.5rem 0;
-    color: var(--global-masthead-link-color);
-    text-decoration: none;
+    a {
+      display: block;
+      margin: 0 1rem;
+      padding: 0.5rem 0;
+      color: var(--global-masthead-link-color);
+      text-decoration: none;
 
-    &:hover {
-      color: var(--global-masthead-link-color-hover);
+      &:hover {
+        color: var(--global-masthead-link-color-hover);
+      }
     }
-  }
 
-  button {
-    position: absolute;
-    height: 2.5rem;
-    right: 0;
-    padding: 0 0.5rem;
-    border: 0;
-    outline: none;
-    background-color: var(--global-base-color);
-    color: #fff;
-    cursor: pointer;
-    z-index: 100;
-  }
+    button {
+      position: absolute;
+      height: 2.5rem;
+      right: 0;
+      padding: 0 0.5rem;
+      border: 0;
+      outline: none;
+      background-color: var(--global-base-color);
+      color: #fff;
+      cursor: pointer;
+      z-index: 100;
+    }
 
   .visible-links {
     display: table;
+    border-spacing: 1.5rem 0; /* Horizontal spacing between items */
+    margin-right: 0; /* Ensure no right margin */
 
     li {
       display: table-cell;
-      vertical-align: middle;
+      white-space: nowrap; /* Prevent wrapping */
+      padding: 0;
 
       &:first-child {
         font-weight: bold;
-        text-wrap: wrap;
-
+        padding-right: 2rem; /* Space after site title */
         a {
           margin-left: 0;
         }
       }
 
+      /* Remove any special last-child handling */
       &:last-child {
-        a {
-          margin-right: 0;
-        }
+        padding-right: 0;
       }
     }
 
@@ -257,6 +257,8 @@
             -ms-transform: scaleX(1);
                 transform: scaleX(1); /* reveal*/
       }
+
+      
     }
   }
 

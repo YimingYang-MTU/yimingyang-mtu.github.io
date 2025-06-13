@@ -1,5 +1,5 @@
 ---
-title: "Project: QLTD Intelligent and Connected Expressway Testbase construction."
+title: "Project: QLTD Intelligent and Connected Expressway Testbase construction"
 excerpt: "Autonomous control and V2X development in AV platoon.<br/> <img src='/images/portfolio8/platoon_back.jpg' width='500' height='300'>"
 collection: portfolio
 ---

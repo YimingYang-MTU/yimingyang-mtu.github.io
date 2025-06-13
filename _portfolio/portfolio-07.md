@@ -1,5 +1,5 @@
 ---
-title: "Project: Research on Construction and Site Testing Technology of Closed Test Environment for Auto-driving Electric Vehicles."
+title: "Project: Research on Construction and Site Testing Technology of Closed Test Environment for Auto-driving Electric Vehicles"
 excerpt: "CAN buse communication, steering, propuslsion, brake calibration of autonomous EV vehicle. <br/><img src='/images/portfolio7/EV_xinda.png' width='500' height='300'>"
 collection: portfolio
 ---
