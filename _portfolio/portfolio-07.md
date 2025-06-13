@@ -5,9 +5,9 @@ collection: portfolio
 ---
 
 
-1. CAN Bus Communication:<br/>
-Developed STM32-based CAN protocols for real-time data exchange between autonomous systems and EV components.<br/>
-2. Drive-by-Wire Calibration:<br/>
-Engineered precise control algorithms for steering (EPS), propuslsion, and brake systems, ensuring compliance with autonomous driving requirements.<br/>
-3. Electrification Transition:<br/>
-Led hardware/software adaptation to migrate from gasoline to EV architecture, resolving high-voltage safety and signal compatibility challenges.<br/>
+1. CAN Bus Communication:  
+Developed an STM32-based CAN protocol for real-time data exchange between autonomous systems and EV components.  
+2. Drive-by-Wire Calibration:  
+Engineered precise control algorithms for electric power steering (EPS), propulsion, and braking systems, ensuring compliance with autonomous driving requirements.  
+3. Electrification Transition:  
+Led hardware/software adaptation efforts to transition from gasoline to EV architecture, resolving compatibility challenges.  

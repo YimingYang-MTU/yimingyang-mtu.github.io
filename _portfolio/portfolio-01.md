@@ -2,7 +2,6 @@
 title: "SAE Autodrive Challenge II year 2 - 5"
 excerpt: "Graduate Research Assistant (GRA) for SAE Autodrive Challenge II. <br/><img src='/images/portfolio1/adii_team18.jpg' width='500' height='300'>"
 collection: portfolio
-
 ---
 
 ## Year 4

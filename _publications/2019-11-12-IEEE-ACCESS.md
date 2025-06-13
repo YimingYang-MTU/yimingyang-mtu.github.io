@@ -3,12 +3,13 @@ title: "Constrained optimization and distributed model predictive control-based 
 collection: publications
 category: manuscripts
 permalink: /publication/2019-11-12-IEEE-ACCESS
-excerpt: #'This paper is about the number 2. The number 3 is left for future work.'
+excerpt: 'H. Min, Y. Yang, Y. Fang, P. Sun and X. Zhao, "Constrained Optimization and Distributed Model Predictive Control-Based Merging Strategies for Adjacent Connected Autonomous Vehicle Platoons," in IEEE Access, vol. 7, pp. 163085-163096, 2019, doi: 10.1109/ACCESS.2019.2952049.'
 date: 2019-11-12
 venue: 'IEEE Access, vol. 7'
-#slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
-paperurl: 'https://ieeexplore.ieee.org/abstract/document/8892730'
-citation: 'H. Min, Y. Yang, Y. Fang, P. Sun and X. Zhao, "Constrained Optimization and Distributed Model Predictive Control-Based Merging Strategies for Adjacent Connected Autonomous Vehicle Platoons," in IEEE Access, vol. 7, pp. 163085-163096, 2019, doi: 10.1109/ACCESS.2019.2952049.'
+status: "published"
+# slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
+# paperurl: 'https://ieeexplore.ieee.org/abstract/document/8892730'
+# citation: 'H. Min, Y. Yang, Y. Fang, P. Sun and X. Zhao, "Constrained Optimization and Distributed Model Predictive Control-Based Merging Strategies for Adjacent Connected Autonomous Vehicle Platoons," in IEEE Access, vol. 7, pp. 163085-163096, 2019, doi: 10.1109/ACCESS.2019.2952049.'
 ---
 
 ---
@@ -30,4 +31,4 @@ The DMPC approach enables real-time computation and handles constraints explicit
 Simulations evaluated the strategy across diverse scenarios and parameters, benchmarking it against state-of-the-art methods. The experiments tested robustness to varying traffic conditions, platoon sizes, and acceleration limits. The proposed method outperformed existing approaches in feasibility, efficiency, and computational speed, while rigorously incorporating safety distances and control constraints. Results demonstrated a reliable solution for CAV platoon merging.  
     <img src="/images/publication_2019_IEEE_ACCESS/results_pos.png" style="margin-left: 0px;" width="520" /> 
 
-For more details, the paper can be found [here](https://www.sae.org/publications/technical-papers/content/2025-01-8040/), the presentation slides can be found [here]()
+For more details, the paper can be found [here](https://www.sae.org/publications/technical-papers/content/2025-01-8040/).
