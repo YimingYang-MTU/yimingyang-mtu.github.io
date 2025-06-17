@@ -171,6 +171,12 @@
    Priority plus navigation
    ========================================================================== */
 
+  .greedy-nav .masthead__menu-item.active a {
+    color: #007bff;          /* Highlight color (blue) */
+    font-weight: bold;
+    border-bottom: 2px solid #007bff; /* Optional underline */
+  }
+
   .greedy-nav {
     position: relative;
     min-width: 250px;
