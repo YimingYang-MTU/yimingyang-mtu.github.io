@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-  <img src="/images/env/all_white_out_env.png" style="margin-left: 0px;" alt="Test" width="820" />  
+  <img src="/images/env/all_white_out_env.png" style="margin-left: 0px;" alt="Test" width="620" />  
 
 I'm a Ph.D. student in the Department of Electrical and Computer Engineering at Michigan Technological University. Located in Michigan’s Upper Peninsula—a region known for extreme snowfall, often exceeding 200 inches annually—my research focuses on autonomy in adverse weather conditions. I'm working with Dr. Jeremy P. Bos and my work aims to enhance perception and control systems for reliable operation in challenging environments.
 
