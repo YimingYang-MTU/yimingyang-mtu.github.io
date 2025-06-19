@@ -149,5 +149,9 @@ Northwest Region, Team Award. August 2019. </div>
 ## Skills ##
 <hr style="height:2px; border-width:0; color:gray; background-color:gray; margin: -0.5em -0.1em -0.5em -0.1em;">
 <div style="font-family: inherit; line-height: 1.4; margin-left: -0.3em; margin-top: 1.4em;">
-ROS, Python, C/C++, Matlab/Simulink, Altium designer (PCB design), Configuration desk. Control desk, SolidWorks   
+**Languages:** Python, C, C++, m-code   
+</div>
+<div style="font-family: inherit; line-height: 1.4; margin-left: -0.3em; margin-top: 1.4em;">
+**Technologies:** ROS, MATLAB, Simulink, MicroAutoBox III dSpace, Configuration Desk, Control Desk,
+SOLIDWORKS, Altium Designer   
 </div>
