@@ -31,4 +31,4 @@ The DMPC approach enables real-time computation and handles constraints explicit
 Simulations evaluated the strategy across diverse scenarios and parameters, benchmarking it against state-of-the-art methods. The experiments tested robustness to varying traffic conditions, platoon sizes, and acceleration limits. The proposed method outperformed existing approaches in feasibility, efficiency, and computational speed, while rigorously incorporating safety distances and control constraints. Results demonstrated a reliable solution for CAV platoon merging.  
     <img src="/images/publication_2019_IEEE_ACCESS/results_pos.png" style="margin-left: 0px;" width="520" /> 
 
-For more details, the paper can be found [here](https://www.sae.org/publications/technical-papers/content/2025-01-8040/).
+For more details, the paper can be found [here](https://ieeexplore.ieee.org/document/8892730).
