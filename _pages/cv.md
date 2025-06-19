@@ -39,14 +39,14 @@ Chang'an University                                             2013 - 2017
 
 **Master in Control science and Engineering**  
 <div style="font-family: inherit; line-height: 1.4; margin-top: -1.2em;">
-  <div style="float: left; width: 70%;">Chang'an University, Shaanxi, China</div>
+  <div style="float: left; width: 70%;">Chang'an University, Xi'an, China</div>
   <div style="float: right;">2017 - 2020</div>
   <div style="clear: both;"></div>
 </div>
 
 **Bachelor in Automation (Excellent Engineers)**  
 <div style="font-family: inherit; line-height: 1.4; margin-top: -1.2em;">
-  <div style="float: left; width: 70%;">Chang'an University, Shaanxi, China</div>
+  <div style="float: left; width: 70%;">Chang'an University, Xi'an, China</div>
   <div style="float: right;">2013 - 2017</div>
   <div style="clear: both;"></div>
 </div>
@@ -149,9 +149,7 @@ Northwest Region, Team Award. August 2019. </div>
 ## Skills ##
 <hr style="height:2px; border-width:0; color:gray; background-color:gray; margin: -0.5em -0.1em -0.5em -0.1em;">
 <div style="font-family: inherit; line-height: 1.4; margin-left: -0.3em; margin-top: 1.4em;">
-<strong>Languages:</strong> Python, C, C++, m-code   
-</div>
-<div style="font-family: inherit; line-height: 1.4; margin-left: -0.3em; margin-top: 1.4em;">
+<strong>Languages:</strong> Python, C, C++, m-code  
 <strong>Technologies:</strong> ROS, MATLAB, Simulink, MicroAutoBox III dSpace, Configuration Desk, Control Desk,
-SOLIDWORKS, Altium Designer   
+Vehicle Spy, SOLIDWORKS, Altium Designer   
 </div>
