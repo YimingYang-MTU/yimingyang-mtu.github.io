@@ -153,3 +153,6 @@ Northwest Region, Team Award. August 2019. </div>
 <strong>Technologies:</strong> ROS, MATLAB, Simulink, MicroAutoBox III dSpace, Configuration Desk, Control Desk,
 Vehicle Spy, SOLIDWORKS, Altium Designer   
 </div>
+
+## Download ##
+CV in pdf can be downloaded [here](https://drive.google.com/file/d/1WKemGTYKwt8ALr6bLsBa7APV2B_Ga9wc/view?usp=sharing).
