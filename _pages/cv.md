@@ -25,7 +25,7 @@ Chang'an University                                             2013 - 2017
 **Ph.D. in Electrical and Computer Engineering**  
 <div style="font-family: inherit; line-height: 1.4; margin-top: -1.2em;">
   <div style="float: left; width: 70%;">Michigan Technological University, MI, USA</div>
-  <div style="float: right;">Expected Summer 2026</div>
+  <div style="float: right;">Expected May 2026</div>
   <div style="clear: both;"></div>
   
   <div style="float: left; width: 70%;">Department of Electrical and Computer Engineering</div>
@@ -149,9 +149,9 @@ Northwest Region, Team Award. August 2019. </div>
 ## Skills ##
 <hr style="height:2px; border-width:0; color:gray; background-color:gray; margin: -0.5em -0.1em -0.5em -0.1em;">
 <div style="font-family: inherit; line-height: 1.4; margin-left: -0.3em; margin-top: 1.4em;">
-**Languages:** Python, C, C++, m-code   
+<strong>Languages:</strong> Python, C, C++, m-code   
 </div>
 <div style="font-family: inherit; line-height: 1.4; margin-left: -0.3em; margin-top: 1.4em;">
-**Technologies:** ROS, MATLAB, Simulink, MicroAutoBox III dSpace, Configuration Desk, Control Desk,
+<strong>Technologies:</strong> ROS, MATLAB, Simulink, MicroAutoBox III dSpace, Configuration Desk, Control Desk,
 SOLIDWORKS, Altium Designer   
 </div>
