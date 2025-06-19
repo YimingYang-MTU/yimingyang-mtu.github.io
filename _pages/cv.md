@@ -83,7 +83,7 @@ Chang'an University                                             2013 - 2017
 </ul>
 <div><strong>3. Integration of Unmanned Aerial Systems Data Collection Into Day-to-Day Usage for Transportation Infrastructure – A Phase III Project</strong></div>
 <ul style="margin-top: 0.4em; padding-left: 1.5em; line-height: 1.0;">
-<li>Traffic Data labeling for origin-destination analysis and traffic counts on Williamston Road (I-96) Traffic Corridor.</li>
+<li>Traffic Data analysis for origin-destination analysis and traffic counts on Williamston Road (I-96) Traffic Corridor.</li>
 </ul>
 <div><strong>4. Microscopic Traffic Safety Analysis and macro-level transportation analysis</strong></div>
 <ul style="margin-top: 0.4em; padding-left: 1.5em; line-height: 1.0;">
