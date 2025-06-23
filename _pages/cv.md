@@ -134,8 +134,7 @@ Chang'an University                                             2013 - 2017
 <hr style="height:2px; border-width:0; color:gray; background-color:gray; margin: -0.5em -0.1em -0.5em -0.1em;">
 <div style="font-family: inherit; line-height: 1.4; margin-left: -0.3em; margin-top: 1.4em;">
 <div>1. Excellent graduate of Chang’an University. June 2020. </div>    
-<div>2. Grand Prize of 2019 National University Biology Networking Design Competition,
-Northwest Region, Team Award. August 2019. </div>    
+<div>2. Northwest China Division Grand Prize - 2019 National College Student IoT Design Competition, Team Award. August 2019. </div>    
 <div>3. First-class Academic Scholarship 2017-2018. November 2018. </div>  
 <div>4. 2017-2018 University-level Outstanding Graduate Student. November 2018.</div>  
 <div>5. Best Technology Award of 2018 i-VISTA Auto Driving Challenge, Team Award. August 2018.</div>  
