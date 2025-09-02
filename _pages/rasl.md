@@ -30,15 +30,12 @@ To support advanced research in perception and autonomy, the RASL lab is equippe
 ## Projects ##
 ### AutoDrive Challenge II ###
   * Funding Agency/Sponsor: General Motors & SAE International.
-  * Role: Faculty Advisor & Lead PI.
   * Description: Developing a fully autonomous Level-4 passenger vehicle, including robust perception systems using LiDAR and cameras. This work provides our team with extensive hands-on experience in sensor calibration, data synchronization, sensor fusion and real-world system integration in challenging environments like those found in Houghton.
 
 ### NEXTCAR II ###
   * Funding Agency/Sponsor: Advanced Research Projects Agency-Energy (ARPA-E).
-  * Role: Co-PI.
   * Description: In this multi-phase ARPA-E project, RASL developed and deployed a LiDAR-based perception system for fuel-efficient platooning. Our work centered on creating a 3D tracking algorithm for precise relative state estimation to enable stable, close-formation driving, and a novel method for estimating upcoming road grade from the point cloud to proactively optimize the powertrain.
 
 ### NIST ###
   * Funding Agency/Sponsor: Department of Commerce (DOC).
-  * Role: Co-PI.
   * Description: RASL is establishing a national center to create the foundational test methods and standards for Automated Driving Systems (ADS) in winter weather. Our role is to systematically characterize the performance degradation of individual sensors - including LiDAR, optical and infrared cameras, and radar - through both component-level testing and real-world data collection from our ADS-equipped vehicle fleet.  We then use this data to validate the performance of state-of-the-art machine learning models, providing the objective analysis needed by standards organizations and government agencies. This project positions our lab at the forefront of developing the crucial measurement science required to ensure the safety and reliability of autonomous systems in all weather conditions.
