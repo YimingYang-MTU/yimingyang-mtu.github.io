@@ -11,10 +11,10 @@ redirect_from:
 
 I'm a Ph.D. Candidate in the Department of Electrical and Computer Engineering at Michigan Technological University. Located in Michigan’s Upper Peninsula—a region known for extreme snowfall, often exceeding 200 inches annually—my research focuses on autonomy in adverse weather conditions. I'm working with [Dr. Jeremy P. Bos](https://www.mtu.edu/ece/department/faculty/bos/index.html) and my work aims to enhance perception and control systems for reliable operation in challenging environments.
 
-## Research directions ##
+## Research Interests ##
 
 1. Perception system assessment under adverse winter weather conditions
-2. Navigation through snow-covered white-out environment in winter
+2. Navigation through snow-covered and white-out environment in winter
 3. Aggressive Autonomous control on snow and ice
 
 <!-- **Markdown generator**
