@@ -37,12 +37,12 @@ To support advanced research in perception and autonomy, the RASL lab is equippe
 
 ### 1. Winter Adverse Driving Dataset (WADS) ###
 
-<img src="/images/rasl/robotics_sensor_pods_image_lidar_winter.png" style="margin-left: 0px;" alt="Test" width="820" />  
+<img src="/images/rasl/robotics_sensor_pods_image_lidar_winter.png" style="margin-left: 5px;" alt="Test" width="820" />  
 
   * Funding Agency/Sponsor: IRAD.
   * Description: WADS addresses a critical gap in autonomous systems research by providing the first large-scale, multimodal dataset focused exclusively on severe winter weather. WADS features challenging conditions, including heavy snowfall and white-outs, that disable most perception systems. The multi-modal sensor suite includes LiDAR and cameras across the visible, NIR, and LWIR spectrums. WADS has 45 TB of data collected and includes 2,000 annotated LiDAR sequences with over 3.6 billion labeled points. Its value to the research community is demonstrated by over 80,000 downloads, making it Michigan Tech’s most impactful public dataset.
 
-### 2. AutoDrive Challenge II ###
+### 2. AutoDrive Challenge I & II ###
   * Funding Agency/Sponsor: General Motors & SAE International.
   * Description: Developing a fully autonomous Level-4 passenger vehicle, including robust perception systems using LiDAR and cameras. This work provides our team with extensive hands-on experience in sensor calibration, data synchronization, sensor fusion and real-world system integration in challenging environments like those found in Houghton.
 
