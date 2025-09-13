@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<iframe src="https://github.com/YimingYang-MTU/yimingyang-mtu.github.io/tree/master/_pages/CV_Yiming_Yang.pdf" width="100%" height="800px">
+<iframe src="https://yimingyang-mtu.github.io/_pages/CV_Yiming_Yang.pdf" width="100%" height="800px">
 </iframe>
 
 <!-- [View my CV](./CV_Yiming_Yang.pdf) -->
