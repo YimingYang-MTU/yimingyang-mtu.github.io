@@ -14,5 +14,5 @@ redirect_from:
 
 <!-- [View my CV](./CV_Yiming_Yang.pdf) -->
 
-## Download ##
-CV can be downloaded [here](https://drive.google.com/file/d/1ko2b4feqWYBU_BliYzilsZfUobNFSzpy/view?usp=sharing).
+<!-- ## Download ##
+CV can be downloaded [here](https://drive.google.com/file/d/1ko2b4feqWYBU_BliYzilsZfUobNFSzpy/view?usp=sharing). -->
