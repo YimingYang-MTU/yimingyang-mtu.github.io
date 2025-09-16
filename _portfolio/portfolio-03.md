@@ -13,5 +13,6 @@ collection: portfolio
 - **Role**: Research Assistant  
 - **Tools**: Labeling tool  
 - **Contributions 1**: Data labeling for data collected on Williamston Road (I-96) Traffic Corridor.  
+- **Contributions 2**: Data analysis for OD insights and vehicle counts validation.  
   <img src="/images/portfolio3/data_labeling.png" alt="Test" width="520" />
  
