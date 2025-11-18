@@ -13,9 +13,11 @@ I'm a Ph.D. Candidate in the Department of Electrical and Computer Engineering a
 
 ## Research Interests ##
 
-1. Perception system assessment under adverse winter weather conditions
-2. Navigation through snow-covered and white-out environment in winter
-3. Aggressive Autonomous control on snow and ice
+1. Safe and Robust Perception for Autonomous Driving (Adverse Weather)
+2. Traversability Estimation for Robotics and Autonomous Vehicles
+3. Robust Planning and Control for Autonomous Systems (MPC, MPPI)
+4. Cooperative Driving and Connected and Automated Vehicles (CAVs)
+5. Autonomous Vehicle Platooning and Control
 
 <!-- **Markdown generator**
 
