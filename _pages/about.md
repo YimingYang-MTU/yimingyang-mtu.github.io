@@ -13,11 +13,10 @@ I'm a Ph.D. Candidate in the Department of Electrical and Computer Engineering a
 
 ## Research Interests ##
 
-1. Safe and Robust Perception for Autonomous Driving (Adverse Weather)
-2. Traversability Estimation for Robotics and Autonomous Vehicles
-3. Robust Planning and Control for Autonomous Systems (MPC, MPPI)
-4. Cooperative Driving and Connected and Automated Vehicles (CAVs)
-5. Autonomous Vehicle Platooning and Control
+1. Stochastic and Data-Driven Optimal Control
+2. Cooperative Automation in Mixed Traffic and Multi-Agent Systems
+3. Resilient Perception and Planning in Adverse Environmental Conditions
+4. Physics-Informed Machine Learning for Vehicle Dynamics
 
 <!-- **Markdown generator**
 
