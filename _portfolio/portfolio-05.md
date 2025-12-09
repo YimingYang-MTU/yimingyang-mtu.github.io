@@ -1,6 +1,6 @@
 ---
 title: "From OSM to VISUM: Automated Infrastructure Generation for Transport Planning"  
-excerpt: "Developed an automated Python toolchain to convert OpenStreetMap (OSM) data into VISUM networks, streamlining macroscopic transport planning and demand modeling.<img src='/images/portfolio5/osm2visum.png' width='600' height='300'>"  
+excerpt: "Developed an automated Python toolchain to convert OpenStreetMap (OSM) data into VISUM networks, streamlining macroscopic transport planning and demand modeling.<br/><img src='/images/portfolio5/osm2visum.png' width='600' height='300'>"  
 collection: portfolio  
 ---
 
