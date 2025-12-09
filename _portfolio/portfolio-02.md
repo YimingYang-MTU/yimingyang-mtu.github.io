@@ -1,6 +1,6 @@
 ---
 title: "The Railroad Crossing Vehicle Warning (RCVW) system"
-excerpt: "Leverage V2X technology to improve safety at highway-rail grade crossings.<br/><img src='/images/portfolio2/rail_crossing_car_train.jpg' width='500' height='300'>"
+excerpt: "Leverage V2X to improve safety at highway-rail grade crossings.<br/><img src='/images/portfolio2/rail_crossing_car_train.jpg' width='500' height='300'>"
 collection: portfolio
 ---
 

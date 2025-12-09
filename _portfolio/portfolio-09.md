@@ -1,6 +1,6 @@
 ---
 title: "Project: Key technologies for driverless commercial vehicle control systems"
-excerpt: "Control of autonomous vehicle.<br/><img src='/images/portfolio9/gas_xinda.png' width='500' height='300'>"
+excerpt: "Designed robust motion control systems for Internal Combustion Engine (ICE) commercial platforms.<br/><img src='/images/portfolio9/gas_xinda.png' width='500' height='300'>"
 collection: portfolio
 ---
 
