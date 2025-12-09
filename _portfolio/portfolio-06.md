@@ -1,6 +1,6 @@
 ---
 title: "From OSM to VISSIM: Automating Large-Scale Traffic Network Modeling"  
-excerpt: "A Python program to extract road networks from OpenStreetMap (OSM) for any user-defined geographic area: <img src='/images/portfolio6/vissim_network.png' width='600' height='300'>"  
+excerpt: "Engineered a pipeline to generate high-fidelity VISSIM road networks from OSM data, enabling rapid setup of large-scale microscopic traffic simulations.<img src='/images/portfolio6/vissim_network.png' width='600' height='300'>"  
 collection: portfolio  
 ---
 
