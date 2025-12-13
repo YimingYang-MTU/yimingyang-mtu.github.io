@@ -9,14 +9,25 @@ redirect_from:
 
   <img src="/images/me/aboutme1.png" style="margin-left: 0px;" alt="Test" width="820" />  
 
-I'm a Ph.D. Candidate in the Department of Electrical and Computer Engineering at Michigan Technological University. Located in Michigan’s Upper Peninsula—a region known for extreme snowfall, often exceeding 200 inches annually—my research focuses on autonomy in adverse weather conditions. I'm working with [Dr. Jeremy P. Bos](https://www.mtu.edu/ece/department/faculty/bos/index.html) and my work aims to enhance perception and control systems for reliable operation in challenging environments.
+<!-- I'm a Ph.D. Candidate in the Department of Electrical and Computer Engineering at Michigan Technological University. Located in Michigan’s Upper Peninsula—a region known for extreme snowfall, often exceeding 200 inches annually—my research focuses on autonomy in adverse weather conditions. I'm working with [Dr. Jeremy P. Bos](https://www.mtu.edu/ece/department/faculty/bos/index.html) and my work aims to enhance perception and control systems for reliable operation in challenging environments. -->
 
-## Research Interests ##
+I am a Ph.D. Candidate in the Department of Electrical and Computer Engineering at Michigan Technological University. Located in Michigan's Upper Peninsula - a region renowned for extreme snowfall, often exceeding 200 inches annually - my research focuses on achieving robust autonomy in adverse weather conditions.
 
-1. Stochastic and Data-Driven Optimal Control
-2. Cooperative Automation in Mixed Traffic and Multi-Agent Systems
-3. Resilient Perception and Planning in Adverse Environmental Conditions
-4. Physics-Informed Machine Learning for Vehicle Dynamics
+Working with [Dr. Jeremy P. Bos](https://www.mtu.edu/ece/department/faculty/bos/index.html), my work aims to enhance perception and control systems for reliable operation in challenging, real-world environments. My core research areas include:
+
+1. Resilient Perception and Planning in Adverse Environmental Conditions.
+
+2. Stochastic and Data-Driven Optimal Control.
+
+Prior to my current research, I worked on projects in several related areas:
+
+3. V2X system implementation and field testing.
+
+4. Cooperative Automation in Mixed Traffic and Multi-Agent Systems.
+
+5. Traffic and transportation analysis and simulation.
+
+6. Autonomous vehicle (AV) and connected autonomous vehicle (CAV) development.
 
 <!-- **Markdown generator**
 
