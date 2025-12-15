@@ -17,13 +17,13 @@ The RCVW team successfully demonstrated this life-saving potential through four 
   Development of hardare-in-the-loop (HIL) virtual demo system for [Railroad Crossing Violation Warning (RCVW)](https://www.rail-learning.mtu.edu/rcvw) application with Connected Vehicles in [Rail Learning System](https://www.rail-learning.mtu.edu/), which is an open learning platform that initially provides basic education on high speed rail topics.  
   <img src="/images/portfolio2/virtual_demo_system.png" alt="Test" width="520" /> 
 - **Contributions 3**:  
-  Virtual demonstrations for RCVW applications with Connected Vehicles in Rail Learning System.  
+  I developed and hosted comprehensive virtual demonstrations of the (RCVW) applications within the RLS. This demonstration was executed using the HIL system integrated with a high-fidelity rail-highway crossing model built in PTV Vissim. This co-simulation approach allowed for the rigorous testing and visualization of connected vehicle scenarios and driver alerts under controlled, yet realistic, conditions. 
   <img src="/images/portfolio2/system_animation_2d.gif" alt="Test" width="520" />  
 - **Contributions 4**:  
   This simulation were developed in V2I Hub (with RBS/VBS plugins, RSU, OBU, GPS, DVI, and computing platforms) and VISSIM. In V2I Hub, I simulated an RCVW-equipped vehicle passing a grade crossing for four use cases. VISSIM added background traffic and train interactions, showing dynamic vehicle responses to RSU messages and train crossings. Videos from both simulators were recorded and integrated for demonstration.  
   <img src="/images/portfolio2/system_animation_3d.gif" alt="Test" width="520" />
 - **Contributions 5**:  
-  At the Michigan Rail Conference (Escanaba, MI), we staged a demo route in a parking lot, including an illustrative grade crossing with active warning devices (flashing lights). After a pre-event site visit to establish the route and MAP, attendees experienced rides in RCVW-equipped vehicles.  
+  At the Michigan Rail Conference (Escanaba, MI), I staged a demo route in a parking lot, including an illustrative grade crossing with active warning devices (flashing lights). After a pre-event site visit to establish the route and MAP, attendees experienced rides in RCVW-equipped vehicles.  
   <img src="/images/portfolio2/real_test_michigan_rail_conference.png" alt="Test" width="520" />  
 - **Contributions 6**:  
   Two-day field demonstration at two HRGCs in Crystal Falls, Michigan (a gated county road and a state highway with flashing lights), instrumented for RCVW testing. A pre-event visit ensured proper site mapping and communication protocols.  
