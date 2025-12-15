@@ -4,9 +4,12 @@ excerpt: "Real-world deployment of a V2X safety warning system. Validated low-la
 collection: portfolio
 ---
 
-- **Project overview**: The Railroad Crossing Vehicle Warning (RCVW) system, developed by Michigan Tech, Battelle, and 2nd Sandbar Productions, demonstrated how connected vehicle technology can improve safety at highway-rail grade crossings (HRGCs). Through four live events and virtual demonstrations, the team showcased RCVW’s potential to reduce fatalities by alerting drivers of approaching trains. Field tests in Michigan included instrumented crossings and vehicles, while simulations in V2I Hub and VISSIM modeled real-world interactions. All materials—videos, simulations, and educational resources—were shared via the Rail Learning System (RLS) and FRA website to support industry adoption. This project aligns with the national goal of zero fatalities at HRGCs by proving the lifesaving potential of connected vehicle tech.
+- **Project overview**: The Railroad Crossing Vehicle Warning (RCVW) system is a major step toward eliminating fatalities at highway-rail grade crossings (HRGCs). Developed through a collaboration between Michigan Tech, Battelle, and 2nd Sandbar Productions, RCVW uses connected vehicle (V2X) technology to directly alert drivers of an approaching train, significantly improving safety.
+
+The RCVW team successfully demonstrated this life-saving potential through four live field events in Michigan—utilizing instrumented crossings and vehicles, and extensive virtual simulations in V2I Hub and VISSIM. The comprehensive results, including videos, educational materials, and simulation models, were publicly shared via the Rail Learning System (RLS) and the FRA website to accelerate industry adoption. This project directly supports the national vision of zero fatalities at HRGCs.
+
 - **Role**: Research Assistant 
-- **Tools**: V2I hub, VISSIM, Ublox GPS application board, C++  
+- **Tools**: VBS, RBS, RSU, V2I hub, VISSIM, Ublox GPS application board, C++  
 - **Contributions 1**:  
   System development: provided real-time RTK positioning to VBS by retrieving and processing RTCM correction data from MDOT’s CORS NTRIP network. Created high-precision HRGCs maps to support RCVW system validation. Configured VBS/RBS/RSU and software protocols for V2X communication.   
   <img src="/images/portfolio2/system_in_lab.png" alt="Test" width="520" />  
