@@ -72,8 +72,13 @@ collection: portfolio
 - **Object**: Vehicle interface and control through CAN messaging.  
 
 1. **Achievement 1** : Hardware-software integration by collaborating with the hardware team to design and validate robust wire harnesses and CAN bus segmentation, ensuring reliable communication across diverse electronic control units (ECUs).   
+
   <img src="/images/portfolio1/dspace_in_trunk.jpg" alt="Trunk Rack" width="500" />  
+
 1. **Achievement 2** : Designed and applied a torque-based drive-override mechanism within the steering-by-wire system to ensure instantaneous and safe manual intervention capability during autonomous operation.  
+
   <img src="/images/portfolio1/steering_test.gif" alt="Steering Test" width="500" />  
+
 1. **Achievement 3** : Engineered and validated propulsion and brake-by-wire control systems, tuning the PID lower-level controllers to deliver highly accurate, stable, and responsive torque and deceleration control, complemented by an instantaneous pedal-actuated drive-override safety mechanism.  
+
   <img src="/images/portfolio1/propulsion_brake_test.gif" alt="Steering Test" width="500" />  
