@@ -6,7 +6,7 @@ collection: portfolio
 
 ## Year 4
 <hr style="height:2px; border-width:0; color:gray; background-color:gray">
-- **Role of year4**: GRA of teams: Controls and Mathworks, Safety and Testing 
+- **Role of year4**: GTA of teams: Controls and Mathworks, Safety and Testing 
 - **Tools**: MATLAB/Simulink, MicroAutoBox III dSpace, ROS, DVP&R
 - **Achievement 1**: A full-spectrum testing team handling vehicle dynamics, perception/planning, HMI, and mission management systems.
   <img src="/images/portfolio1/safety_and_testing.png" alt="Test" width="520" />
@@ -28,7 +28,7 @@ collection: portfolio
 ## Year 3
 <hr style="height:2px; border-width:0; color:gray; background-color:gray">
 
-- **Role of year3**: GRA of team: Controls
+- **Role of year3**: GTA of team: Controls
 - **Tools**: MATLAB/Simulink, ROS, MicroAutoBox III dSpace  
 - **Achievement 1**: Global Autonomy State Machine implemented for integral control of barke, steering, and propulsion, failure handling, and safe exist mechanism.
   <img src="/images/portfolio1/autonomy_state_machine_y3.png" alt="Steering Test" width="520" />
@@ -46,7 +46,7 @@ collection: portfolio
 ## Year 2
 <hr style="height:2px; border-width:0; color:gray; background-color:gray">
 
-- **Role of year2**: Graduate Research Assistant (GRA) of team: Controls
+- **Role of year2**: GTA of team: Controls
 - **Tools**: MATLAB/Simulink, ROS, MicroAutoBox III dSpace.    
 - **Object**: Vehicle interface and control through CAN messaging.  
 
