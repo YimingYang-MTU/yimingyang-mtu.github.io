@@ -1,6 +1,6 @@
 ---
 title: "The Railroad Crossing Vehicle Warning (RCVW) system"
-excerpt: "Real-world deployment of a V2X safety warning system. Validated low-latency communication between trains and cars at active Highway-Rail Grade Crossings.<br/><img src='/images/portfolio2/rail_crossing_car_train.jpg' width='500' height='300'>"
+excerpt: "Real-world deployment of a V2X safety warning system. Validated low-latency communication between crossings and cars at active Highway-Rail Grade Crossings.<br/><img src='/images/portfolio2/rail_crossing_car_train.jpg' width='500' height='300'>"
 collection: portfolio
 ---
 
