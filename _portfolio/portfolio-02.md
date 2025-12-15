@@ -4,8 +4,7 @@ excerpt: "Real-world deployment of a V2X safety warning system. Validated low-la
 collection: portfolio
 ---
 
-- **Project overview**: The Railroad Crossing Vehicle Warning (RCVW) system is a major step toward eliminating fatalities at highway-rail grade crossings (HRGCs). Developed through a collaboration between Michigan Tech, Battelle, and 2nd Sandbar Productions, RCVW uses connected vehicle (V2X) technology to directly alert drivers of an approaching train, significantly improving safety.
-The RCVW team successfully demonstrated this life-saving potential through four live field events in Michigan—utilizing instrumented crossings and vehicles, and extensive virtual simulations in V2I Hub and VISSIM. The comprehensive results, including videos, educational materials, and simulation models, were publicly shared via the Rail Learning System (RLS) and the FRA website to accelerate industry adoption. This project directly supports the national vision of zero fatalities at HRGCs.
+- **Project overview**: The Railroad Crossing Vehicle Warning (RCVW) system is a major step toward eliminating fatalities at highway-rail grade crossings (HRGCs). Developed through a collaboration between Michigan Tech, Battelle, and 2nd Sandbar Productions, RCVW uses connected vehicle (V2X) technology to directly alert drivers of an approaching train, significantly improving safety. We successfully demonstrated this life-saving potential through four live field events in Michigan - utilizing instrumented crossings and vehicles, and extensive virtual simulations in V2I Hub and VISSIM. The comprehensive results, including videos, educational materials, and simulation models, were publicly shared via the Rail Learning System (RLS) and the FRA website to accelerate industry adoption. This project directly supports the national vision of zero fatalities at HRGCs.
 
 - **Role**: Research Assistant 
 - **Tools**: VBS, RBS, RSU, V2I hub, VISSIM, Ublox GPS application board, C++  
