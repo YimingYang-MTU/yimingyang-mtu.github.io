@@ -13,7 +13,7 @@ redirect_from:
 
 I am a Ph.D. Candidate in the Department of Electrical and Computer Engineering at Michigan Technological University. Located in Michigan's Upper Peninsula - a region renowned for extreme snowfall, often exceeding 200 inches annually - my research focuses on achieving robust autonomy in adverse weather conditions.
 
-Working with [Dr. Jeremy P. Bos](https://www.mtu.edu/ece/department/faculty/bos/index.html), my work aims to enhance perception and control systems for reliable operation in challenging, real-world environments. My core research areas include:
+Working with [Dr. Jeremy P. Bos](https://scholar.google.com/citations?user=Iacaw6IAAAAJ&hl=en&oi=ao), my work aims to enhance perception and control systems for reliable operation in challenging, real-world environments. My core research areas include:
 
 1. Resilient Perception and Planning in Adverse Environmental Conditions.
 
