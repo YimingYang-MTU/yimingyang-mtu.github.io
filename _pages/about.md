@@ -15,19 +15,13 @@ I am a Ph.D. Candidate in the Department of Electrical and Computer Engineering 
 
 Working with [Dr. Jeremy P. Bos](https://scholar.google.com/citations?user=Iacaw6IAAAAJ&hl=en&oi=ao), my work aims to enhance perception and control systems for reliable operation in challenging, real-world environments. My core research areas include:
 
-1. Resilient Perception and Planning in Adverse Environmental Conditions.
+1. Resilient Perception in Adverse Conditions
 
-2. Stochastic and Data-Driven Optimal Control.
+2. Field Robotics & Autonomous Navigation
 
-Prior to my current research, I worked on projects in several related areas:
+3. Stochastic & Data-Driven Optimal Planning and Control
 
-3. V2X system implementation and field testing.
-
-4. Cooperative Automation in Mixed Traffic and Multi-Agent Systems.
-
-5. Traffic and transportation analysis and simulation.
-
-6. Autonomous vehicle (AV) and connected autonomous vehicle (CAV) development.
+4. Safety-Critical Deployment & Validation
 
 <!-- **Markdown generator**
 
