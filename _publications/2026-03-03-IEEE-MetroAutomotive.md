@@ -1,5 +1,5 @@
 ---
-title: "Beyond the Snowflakes: Disentangling Weather Effects from Confounding Meta-Factors in LiDAR Object Detection"
+title: "Why Snow Helps: Geometric and Radiometric Enhancements of Vehicles in LiDAR Point Clouds"
 # collection: publications
 category: manuscripts
 permalink: /publication/2026-03-03-IEEE
@@ -26,7 +26,7 @@ While LiDAR perception is critical for autonomous driving, the scientific commun
 
 To explain this anomaly, I proposed and investigated two underlying physical mechanisms. The first hypothesis is geometric inflation, which suggests that a layer of accumulated snow physically increases the effective surface area and volume of a vehicle. The second hypothesis involves a radiometric shift from specular to diffuse reflectance. Essentially, the shiny, specular surfaces of a standard car often deflect LiDAR laser pulses away from the sensor, whereas a coating of snow transforms the vehicle into a highly reflective, diffuse surface that scatters light back toward the receiver much more effectively.
 
-  <img src="/images/publication_2026_IEEE_METROAUTOMOTIVE/specular_diffuse_reflection.png" style="margin-left: 0px;" width="720" /> 
+  <img src="/images/publication_2026_IEEE_METROAUTOMOTIVE/specular_diffuse_reflection.png" style="margin-left: 0px;" width="520" /> 
 
 ## Experiments ##
 
