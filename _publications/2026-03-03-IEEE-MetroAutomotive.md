@@ -1,5 +1,5 @@
 ---
-title: "Why Snow Helps: Geometric and Radiometric Enhancements of Vehicles in LiDAR Point Clouds"
+title: "Geometric and Radiometric Enhancements of Vehicles in LiDAR Point Clouds with Snow Accumulation"
 # collection: publications
 category: manuscripts
 permalink: /publication/2026-03-03-IEEE
