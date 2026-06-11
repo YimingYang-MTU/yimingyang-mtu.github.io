@@ -27,11 +27,11 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "Yiming_Yang.jpg"
-  name             : "Ph.D. Candidate"
+  name             : "Postdoc Researcher"
   pronouns         : # example: "she/her"  
-  bio              : "Perception and planning under adverse conditions"
-  location         : "MI, USA"
-  employer         : "Michigan Technological University"
+  bio              : "Rural Autonomous Driving"
+  location         : "OK, USA"
+  employer         : "Oklahoma State University"
   uri              : # URL
   email            : "yimingya@mtu.edu" 
 

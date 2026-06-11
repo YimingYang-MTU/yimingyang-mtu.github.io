@@ -11,17 +11,7 @@ redirect_from:
 
 <!-- I'm a Ph.D. Candidate in the Department of Electrical and Computer Engineering at Michigan Technological University. Located in Michigan’s Upper Peninsula—a region known for extreme snowfall, often exceeding 200 inches annually—my research focuses on autonomy in adverse weather conditions. I'm working with [Dr. Jeremy P. Bos](https://www.mtu.edu/ece/department/faculty/bos/index.html) and my work aims to enhance perception and control systems for reliable operation in challenging environments. -->
 
-I am a Ph.D. Candidate in the Department of Electrical and Computer Engineering at Michigan Technological University. Located in Michigan's Upper Peninsula - a region renowned for extreme snowfall, often exceeding 200 inches annually - my research focuses on achieving robust autonomy in adverse weather conditions.
-
-Working with [Dr. Jeremy P. Bos](https://scholar.google.com/citations?user=Iacaw6IAAAAJ&hl=en&oi=ao), my work aims to enhance field robotics and autonomous driving for reliable operation in challenging, real-world environments. My core research areas include:
-
-1. Resilient Perception in Adverse Conditions
-
-2. Field Robotics & Autonomous Navigation
-
-3. Stochastic & Data-Driven Optimal Planning and Control
-
-4. Safety-Critical Deployment & Validation
+I'm a Postdoctoral Researcher at Oklahoma State University, working alongside [Dr. Joshua Li](https://scholar.google.com/citations?user=OUcKeVkAAAAJ&hl=en) in the School of Civil and Environmental Engineering. My current research focuses on Rural Automated Vehicles (RAVs) and intelligent transportation systems. I earned my Ph.D. from the Department of Electrical and Computer Engineering at Michigan Technological University, where my doctoral work under the advisement of [Dr. Jeremy P. Bos](https://scholar.google.com/citations?user=Iacaw6IAAAAJ&hl=en&oi=ao) centered on achieving robust vehicle autonomy in adverse weather conditions.
 
 <!-- **Markdown generator**
 
