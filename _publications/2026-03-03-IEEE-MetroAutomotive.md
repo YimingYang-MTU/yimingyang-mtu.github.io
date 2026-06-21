@@ -4,7 +4,7 @@ title: "Geometric and Radiometric Enhancements of Vehicles in LiDAR Point Clouds
 category: manuscripts
 permalink: /publication/2026-03-03-IEEE
 excerpt: 'Yiming Yang, Jeremy P. Bos'
-status: "under review"
+status: "Accepted"
 date: 2026-03-03
 venue: 'IEEE International Workshop on Metrology for Automotive (IEEE MetroAutomotive 2026)'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
