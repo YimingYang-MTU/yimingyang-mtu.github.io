@@ -1,6 +1,7 @@
 ---
 title: "Constrained optimization and distributed model predictive control-based merging strategies for adjacent connected autonomous vehicle platoons"
 collection: publications
+category: journals   # Options: journals, conferences, under_review
 category: manuscripts
 permalink: /publication/2019-11-12-IEEE-ACCESS
 excerpt: 'H. Min, Y. Yang, Y. Fang, P. Sun and X. Zhao, "Constrained Optimization and Distributed Model Predictive Control-Based Merging Strategies for Adjacent Connected Autonomous Vehicle Platoons," in IEEE Access, vol. 7, pp. 163085-163096, 2019, doi: 10.1109/ACCESS.2019.2952049.'

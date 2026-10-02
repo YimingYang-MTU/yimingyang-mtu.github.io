@@ -1,36 +1,125 @@
 ---
 layout: archive
-#title: "Publications"
+title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-<!-- {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %} -->
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
+<style>
+  /* Compact layout styles */
+  .pub-item {
+    margin-bottom: 14px;
+    line-height: 1.35;
+  }
+  .pub-title {
+    font-weight: 600;
+    font-size: 1.05rem;
+    margin-bottom: 2px;
+  }
+  .pub-title a {
+    color: #0366d6;
+    text-decoration: none;
+  }
+  .pub-title a:hover {
+    text-decoration: underline;
+  }
+  .pub-authors {
+    font-size: 0.90rem;
+    color: #333333;
+  }
+  .pub-venue {
+    font-size: 0.88rem;
+    color: #555555;
+    font-style: italic;
+  }
+  .pub-links {
+    margin-top: 4px;
+    font-size: 0.80rem;
+  }
+  .pub-btn {
+    display: inline-block;
+    padding: 1px 7px;
+    margin-right: 5px;
+    background-color: #f1f3f5;
+    border: 1px solid #d1d5db;
+    border-radius: 3px;
+    color: #333333 !important;
+    text-decoration: none !important;
+  }
+  .pub-btn:hover {
+    background-color: #e5e7eb;
+  }
+  .pub-sec-title {
+    margin-top: 25px;
+    margin-bottom: 4px;
+    font-size: 1.35rem;
+  }
+  hr.pub-hr {
+    margin-top: 2px;
+    margin-bottom: 12px;
+    border: 0;
+    border-top: 1px solid #e5e7eb;
+  }
+</style>
+
+{% assign cat_keys = "under_review,journals,conferences" | split: "," %}
+{% assign cat_names = "Under Review,Journal Articles,Conference Proceedings" | split: "," %}
+
+{% for key in cat_keys %}
+  {% assign idx = forloop.index0 %}
+  {% assign category_name = cat_names[idx] %}
+  {% assign papers = site.publications | where: "category", key | sort: "date" | reverse %}
+
+  {% if papers.size > 0 %}
+    <h2 class="pub-sec-title">{{ category_name }}</h2>
+    <hr class="pub-hr" />
+    {% for post in papers %}
+      <div class="pub-item">
+        <!-- Clickable title linking directly to individual paper page -->
+        <div class="pub-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </div>
+        <div class="pub-authors">
+          {% if post.authors %}{{ post.authors }}{% else %}Yiming Yang, Jeremy P. Bos{% endif %}
+        </div>
+        <div class="pub-venue">
+          Published in <i>{% if post.venue %}{{ post.venue }}{% endif %}</i>, {{ post.date | date: "%Y" }}
+        </div>
+        <div class="pub-links">
+          <a class="pub-btn" href="{{ post.url | relative_url }}">Paper Page</a>
+          {% if post.paperurl %}
+            <a class="pub-btn" href="{{ post.paperurl }}" target="_blank">PDF / Link</a>
+          {% endif %}
+        </div>
+      </div>
     {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+{% comment %} Catch papers without a category front-matter field {% endcomment %}
+{% assign uncategorized = site.publications | where_exp: "item", "item.category == nil" | sort: "date" | reverse %}
+{% if uncategorized.size > 0 %}
+  <h2 class="pub-sec-title">Other Publications</h2>
+  <hr class="pub-hr" />
+  {% for post in uncategorized %}
+    <div class="pub-item">
+      <div class="pub-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </div>
+      <div class="pub-authors">
+        {% if post.authors %}{{ post.authors }}{% else %}Yiming Yang, Jeremy P. Bos{% endif %}
+      </div>
+      <div class="pub-venue">
+        Published in <i>{% if post.venue %}{{ post.venue }}{% endif %}</i>, {{ post.date | date: "%Y" }}
+      </div>
+      <div class="pub-links">
+        <a class="pub-btn" href="{{ post.url | relative_url }}">Paper Page</a>
+        {% if post.paperurl %}
+          <a class="pub-btn" href="{{ post.paperurl }}" target="_blank">PDF / Link</a>
+        {% endif %}
+      </div>
+    </div>
   {% endfor %}
 {% endif %}
-
-
-
