@@ -1,10 +1,96 @@
 ---
 layout: archive
-# title: "Portfolio"
+title: "Portfolio"
 permalink: /portfolio/
 author_profile: true
 ---
+
 {% include base_path %}
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+
+<style>
+  /* Responsive 2-Column Grid */
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 24px;
+  }
+
+  /* Mobile layout (1 Column) */
+  @media (max-width: 768px) {
+    .portfolio-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* Portfolio Card Styling */
+  .portfolio-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+
+  .portfolio-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+    border-color: #cbd5e1;
+  }
+
+  /* Modern Card Title (Fixes Blue Color & Underlines) */
+  .portfolio-card-title {
+    margin: 0 0 10px 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.35;
+  }
+
+  .portfolio-card-title a {
+    color: #0f172a !important; /* Clean dark text */
+    text-decoration: none !important; /* Removes underline */
+    transition: color 0.15s ease;
+  }
+
+  .portfolio-card-title a:hover {
+    color: #2563eb !important; /* Modern accent blue on hover */
+    text-decoration: none !important;
+  }
+
+  /* Description Text */
+  .portfolio-card-excerpt {
+    font-size: 0.92rem;
+    color: #475569;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+
+  /* Normalizes all images inside portfolio cards */
+  .portfolio-card img {
+    width: 100% !important;
+    height: 200px !important;
+    object-fit: cover !important; /* Ensures images fit without distortion */
+    border-radius: 8px;
+    margin-top: 10px;
+    display: block;
+  }
+</style>
+
+<div class="portfolio-grid">
+  {% for post in site.portfolio %}
+    <div class="portfolio-card">
+      <div>
+        <h3 class="portfolio-card-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h3>
+        <div class="portfolio-card-excerpt">
+          {{ post.excerpt }}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
