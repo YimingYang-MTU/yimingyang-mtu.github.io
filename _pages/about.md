@@ -1,68 +1,120 @@
----
-permalink: /
-title: "About Me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
-
 <style>
-  .hero-gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  .photo-pyramid {
+    display: flex;
+    flex-direction: column;
     gap: 12px;
     margin-top: 10px;
-    margin-bottom: 24px;
+    margin-bottom: 28px;
   }
-  .hero-gallery-item {
+
+  /* Row 1: 1 Full-Width Wide Hero Banner */
+  .pyramid-row-1 {
+    width: 100%;
+  }
+  .pyramid-row-1 .pyramid-item img {
+    height: 280px; /* Panoramic height for graduation banner */
+  }
+
+  /* Row 2: 3 Medium Research / Field Work Images */
+  .pyramid-row-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .pyramid-row-2 .pyramid-item img {
+    height: 160px;
+  }
+
+  /* Row 3: 4 Small Lifestyle / Sports / Team Images */
+  .pyramid-row-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
+  .pyramid-row-3 .pyramid-item img {
+    height: 110px;
+  }
+
+  /* Shared Card Styling */
+  .pyramid-item {
     position: relative;
     overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
   }
-  .hero-gallery-item img {
+  .pyramid-item img {
     width: 100%;
-    height: 240px;
     object-fit: cover;
     display: block;
     transition: transform 0.3s ease;
   }
-  .hero-gallery-item:hover img {
-    transform: scale(1.03);
+  .pyramid-item:hover img {
+    transform: scale(1.02);
   }
-  .hero-caption {
+
+  /* Overlay Captions */
+  .pyramid-caption {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(transparent, rgba(15, 23, 42, 0.78));
+    background: linear-gradient(transparent, rgba(15, 23, 42, 0.82));
     color: #ffffff;
-    padding: 12px 10px 6px 10px;
+    padding: 10px 10px 6px 10px;
     font-size: 0.78rem;
     font-weight: 500;
+    text-align: center;
   }
-  
-  @media (max-width: 640px) {
-    .hero-gallery {
-      grid-template-columns: 1fr;
-    }
-    .hero-gallery-item img {
-      height: 200px;
-    }
+
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .pyramid-row-1 .pyramid-item img { height: 180px; }
+    .pyramid-row-2 { grid-template-columns: repeat(2, 1fr); }
+    .pyramid-row-3 { grid-template-columns: repeat(2, 1fr); }
+    .pyramid-row-2 .pyramid-item img { height: 140px; }
+    .pyramid-row-3 .pyramid-item img { height: 110px; }
   }
 </style>
 
-<div class="hero-gallery">
-  <div class="hero-gallery-item">
-    <img src="/images/me/field_work_setup.jpg" alt="Field Data Collection & Sensor Calibration" />
-    <div class="hero-caption">Field Data Collection & Sensor Calibration</div>
+<div class="photo-pyramid">
+
+  <!-- ROW 1: 1 Wide Panoramic Graduation Hero Banner -->
+  <div class="pyramid-row-1">
+    <div class="pyramid-item">
+      <img src="/images/me/image_graduation_banner.jpg" alt="Ph.D. Graduation at Michigan Technological University" />
+      <div class="pyramid-caption">Ph.D. Graduation at Michigan Technological University</div>
+    </div>
   </div>
-  <div class="hero-gallery-item">
-    <img src="/images/me/vehicle_testing.jpg" alt="Autonomous Vehicle Field Testing" />
-    <div class="hero-caption">Autonomous Vehicle Testing on Snow & Off-Grid Roads</div>
+
+  <!-- ROW 2: 3 Medium Technical Work & Field Testing Images -->
+  <div class="pyramid-row-2">
+    <div class="pyramid-item">
+      <img src="/images/me/image_ADII_competition.jpg" alt="Field Testing" />
+      <div class="pyramid-caption">Off-Road Field Data Collection</div>
+    </div>
+    <div class="pyramid-item">
+      <img src="/images/me/image_v2x_field_test2.jpg" alt="Sensor Setup" />
+      <div class="pyramid-caption">Thermal-RGB Sensor Calibration</div>
+    </div>
   </div>
+
+  <!-- ROW 3: 3 Small Sports, Conference & Lifestyle Images -->
+  <div class="pyramid-row-3">
+    <div class="pyramid-item">
+      <img src="/images/me/image_broomball.jpg" alt="Sports with Colleagues" />
+      <div class="pyramid-caption">Sports with Colleagues</div>
+    </div>
+    <div class="pyramid-item">
+      <img src="/images/me/image_softball.jpg" alt="Conference Trip" />
+      <div class="pyramid-caption">IEEE IROS Conference</div>
+    </div>
+    <div class="pyramid-item">
+      <img src="/images/me/image_motorcycle.jpg" alt="Lab Gathering" />
+      <div class="pyramid-caption">Lab Gathering</div>
+    </div>
+  </div>
+
 </div>
 
 I am a **Postdoctoral Researcher** at **Oklahoma State University**, working in the School of Civil and Environmental Engineering with. My research spans **Rural Automated Vehicles (RAVs)**, **Foundation Models**, **robust perception in adverse weather** and **Field Robotics**.
