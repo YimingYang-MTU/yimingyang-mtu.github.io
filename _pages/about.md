@@ -91,8 +91,8 @@ redirect_from:
   <!-- ROW 1: 1 Wide Panoramic Graduation Hero Banner -->
   <div class="pyramid-row-1">
     <div class="pyramid-item">
-      <img src="/images/me/image_graduation_banner.jpg" alt="Ph.D. Graduation at Michigan Technological University" />
-      <div class="pyramid-caption">Ph.D. Graduation at Michigan Technological University</div>
+      <img src="/images/me/image_graduation_banner.png" alt="Ph.D. Graduation at Michigan Technological University" />
+      <!--<div class="pyramid-caption">Ph.D. Graduation at Michigan Technological University</div> -->
     </div>
   </div>
 
@@ -100,11 +100,11 @@ redirect_from:
   <div class="pyramid-row-2">
     <div class="pyramid-item">
       <img src="/images/me/image_ADII_competition.jpg" alt="Field Testing" />
-      <div class="pyramid-caption">Off-Road Field Data Collection</div>
+      <!--<div class="pyramid-caption">AutoDrive Competition</div> -->
     </div>
     <div class="pyramid-item">
       <img src="/images/me/image_v2x_field_test2.jpg" alt="Sensor Setup" />
-      <div class="pyramid-caption">Thermal-RGB Sensor Calibration</div>
+      <!--<div class="pyramid-caption">V2X Field Testing</div> -->
     </div>
   </div>
 
@@ -112,15 +112,15 @@ redirect_from:
   <div class="pyramid-row-3">
     <div class="pyramid-item">
       <img src="/images/me/image_broomball.jpg" alt="Sports with Colleagues" />
-      <div class="pyramid-caption">Sports with Colleagues</div>
+      <!--<div class="pyramid-caption">Broomball</div> -->
     </div>
     <div class="pyramid-item">
       <img src="/images/me/image_softball.jpg" alt="Conference Trip" />
-      <div class="pyramid-caption">IEEE IROS Conference</div>
+      <!--<div class="pyramid-caption">Sports with Colleagues</div> -->
     </div>
     <div class="pyramid-item">
       <img src="/images/me/image_motorcycle.jpg" alt="Lab Gathering" />
-      <div class="pyramid-caption">Lab Gathering</div>
+      <!--<div class="pyramid-caption">Motorcycle</div> -->
     </div>
   </div>
 
