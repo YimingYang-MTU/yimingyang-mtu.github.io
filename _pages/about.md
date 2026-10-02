@@ -1,17 +1,183 @@
 ---
 permalink: /
-title: "About me"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-  <img src="/images/me/aboutme1.png" style="margin-left: 0px;" alt="Test" width="820" />  
+<img src="/images/me/aboutme1.png" style="width: 100%; border-radius: 6px; margin-bottom: 20px;" alt="Yiming Yang Research Banner" />
 
-<!-- I'm a Ph.D. Candidate in the Department of Electrical and Computer Engineering at Michigan Technological University. Located in Michigan’s Upper Peninsula—a region known for extreme snowfall, often exceeding 200 inches annually—my research focuses on autonomy in adverse weather conditions. I'm working with [Dr. Jeremy P. Bos](https://www.mtu.edu/ece/department/faculty/bos/index.html) and my work aims to enhance perception and control systems for reliable operation in challenging environments. -->
+I am a **Postdoctoral Researcher** at **Oklahoma State University**, working in the School of Civil and Environmental Engineering with [Dr. Joshua Li](https://scholar.google.com/citations?user=OUcKeVkAAAAJ&hl=en). My research spans **Rural Automated Vehicles (RAVs)**, **robust perception in adverse weather**, and **AI-driven intelligent transportation systems**.
 
-I'm a Postdoctoral Researcher at Oklahoma State University, working alongside [Dr. Joshua Li](https://scholar.google.com/citations?user=OUcKeVkAAAAJ&hl=en) in the School of Civil and Environmental Engineering. My current research focuses on Rural Automated Vehicles (RAVs) and intelligent transportation systems. I earned my Ph.D. from the Department of Electrical and Computer Engineering at Michigan Technological University, where my doctoral work under the advisement of [Dr. Jeremy P. Bos](https://scholar.google.com/citations?user=Iacaw6IAAAAJ&hl=en&oi=ao) centered on achieving robust vehicle autonomy in adverse weather conditions.
+<style>
+  /* Vertical Research Timeline Styling */
+  .timeline-container {
+    position: relative;
+    padding-left: 28px;
+    margin: 32px 0;
+    border-left: 3px solid #0366d6;
+  }
+  .timeline-card {
+    position: relative;
+    margin-bottom: 32px;
+    padding: 16px 20px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  }
+  .timeline-card:last-child {
+    margin-bottom: 0;
+  }
+  .timeline-dot {
+    position: absolute;
+    left: -37px;
+    top: 18px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #0366d6;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 0 2px #0366d6;
+  }
+  .timeline-date {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #2563eb;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .timeline-role {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin: 0 0 2px 0;
+  }
+  .timeline-institution {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #475569;
+    margin-bottom: 10px;
+  }
+  .timeline-institution a {
+    color: #0366d6;
+    text-decoration: none;
+  }
+  .timeline-institution a:hover {
+    text-decoration: underline;
+  }
+  .timeline-body {
+    font-size: 0.92rem;
+    color: #334155;
+    line-height: 1.55;
+  }
+  .timeline-body ul {
+    margin: 6px 0 10px 18px;
+    padding: 0;
+  }
+  .timeline-body li {
+    margin-bottom: 4px;
+  }
+  .tag-container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .tag {
+    display: inline-block;
+    padding: 2px 9px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    border-radius: 12px;
+    background-color: #e0f2fe;
+    color: #0369a1;
+    border: 1px solid #bae6fd;
+  }
+</style>
+
+## Research Journey
+
+<div class="timeline-container">
+
+  <!-- Stage 1: Oklahoma State University -->
+  <div class="timeline-card">
+    <div class="timeline-dot"></div>
+    <div class="timeline-date">2026 – Present</div>
+    <h3 class="timeline-role">Postdoctoral Researcher</h3>
+    <div class="timeline-institution">
+      Oklahoma State University &bull; School of Civil & Environmental Engineering
+    </div>
+    <div class="timeline-body">
+      Working with <a href="https://scholar.google.com/citations?user=OUcKeVkAAAAJ&hl=en" target="_blank">Dr. Joshua Li</a> focusing on infrastructure-enabled and vehicle-side intelligence for challenging operational environments.
+      <ul>
+        <li><strong>Zero-Shot VLMs for Rural Driving:</strong> Benchmarking Vision-Language Models for road scene comprehension in off-grid and unpaved conditions.</li>
+        <li><strong>Infrastructure Preparedness for Autonomous Driving:</strong> AV-based framework for automated physical/digital infrastructure evaluation.</li>
+        <li><strong>Teaching:</strong> ROS 2 and Autoware teaching.</li>
+      </ul>
+    </div>
+    <div class="tag-container">
+      <span class="tag">Rural Autonomous Vehicles</span>
+      <span class="tag">Vision-Language Models</span>
+      <span class="tag">AV Infrastructure Evaluation</span>
+    </div>
+  </div>
+
+  <!-- Stage 2: Michigan Technological University -->
+  <div class="timeline-card">
+    <div class="timeline-dot"></div>
+    <div class="timeline-date">2021 – 2026</div>
+    <h3 class="timeline-role">Ph.D. in Electrical & Computer Engineering</h3>
+    <div class="timeline-institution">
+      Michigan Technological University &bull; Planetary Surface Technology Development Lab
+    </div>
+    <div class="timeline-body">
+      Advised by <a href="https://scholar.google.com/citations?user=Iacaw6IAAAAJ&hl=en&oi=ao" target="_blank">Dr. Jeremy P. Bos</a>, concentrating on field robotics and off-road/winter vehicle autonomy.
+      <ul>
+        <li><strong>Adverse Weather Autonomy:</strong> LiDAR-based object detection under severe snowfall.</li>
+        <li><strong>Traversability Estimation:</strong> Thermal-RGB fusion and self-supervised wheel track detection for featureless snowy terrains.</li>
+        <li><strong>Stochastic Sampling-based Optimal Control:</strong> Model Predictive Path Integral (MPPI) control on low-friction surfaces.</li>
+
+      </ul>
+    </div>
+    <div class="tag-container">
+      <span class="tag">Winter Autonomy</span>
+      <span class="tag">LiDAR Object Detection</span>
+      <span class="tag">Traversability Estimation</span>
+      <span class="tag">MPPI Controller</span>
+      <span class="tag">Field Robotics</span>
+    </div>
+  </div>
+
+  <!-- Stage 3: Chang'an University -->
+  <div class="timeline-card">
+    <div class="timeline-dot"></div>
+    <div class="timeline-date">Prior Stage</div>
+    <h3 class="timeline-role">B.S. & M.S. Research Focus</h3>
+    <div class="timeline-institution">
+      Chang'an University &bull; School of Automotive Engineering
+    </div>
+    <div class="timeline-body">
+      Focused on autonomous vehicle control, trajectory tracking, and connected and automated vehicle (CAV) platoon control.
+      <ul>
+        <li><strong>Autonomous Vehicle Control:</strong> PID control for gas, brake, steering.<li> <li><strong>Trajectory TRracking:</strong> Purepursuit controller, Model Predictive Control (MPC).<li>
+        <li><strong>Platoon Control:</strong> Distributed Model Predictive Control (DMPC) and Deep Deterministic Policy Gradient (DDPG) reinforcement learning.</li>
+      </ul>
+    </div>
+    <div class="tag-container">
+      <span class="tag">Autonomous Vehicle</span>
+      <span class="tag">PID Control</span>
+      <span class="tag">Model Predictive Control</span>
+      <span class="tag">Platoon Control</span>
+      <span class="tag">Deep Reinforcement Learning</span>
+      <span class="tag">Vehicle Dynamics</span>
+    </div>
+  </div>
+
+</div>
 
 <!-- **Markdown generator**
 
