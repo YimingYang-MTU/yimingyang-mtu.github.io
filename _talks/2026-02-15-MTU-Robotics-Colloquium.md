@@ -11,15 +11,8 @@ slides_url: ""
 paper_url: ""
 ---
 
-<img src="/images/presentation_2026_MTU_colloquium/me.jpg" style="margin-left: 50px;" alt="Presentation Photo" width="520" />
 
-- **Abstract**:  
-  [Add colloquium talk abstract/summary here]  
-  <img src="/images/presentation_2026_MTU_colloquium/overview.png" alt="Overview" width="520" />
-
-- **Talk Highlights**:  
-  [Add key discussion points or topics covered during the colloquium here]  
-  <img src="/images/presentation_2026_MTU_colloquium/highlights.png" alt="Highlights" width="520" />
-
-- **Download**:  
-  The slides can be downloaded [here](YOUR_SLIDES_LINK_HERE).
+- **Presentation Slides (PDF)**:
+  <iframe src="Robotics seminar slides.pdf" width="100%" height="500px" style="border: 1px solid #d1d5db; border-radius: 6px; margin-top: 10px;">
+    Your browser does not support inline PDFs. <a href="Robotics seminar slides.pdf">Click here to download the PDF.</a>
+  </iframe>
