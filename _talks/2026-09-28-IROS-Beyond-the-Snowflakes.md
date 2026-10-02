@@ -11,7 +11,7 @@ slides_url: ""
 paper_url: ""
 ---
 
-<img src="/images/presentation_2026_IROS_1/IROS_2026_IROS_presentation_1.jpeg" style="margin-left: 50px;" alt="Presentation Photo" width="520" />
+<img src="/images/presentation_2026_IROS_1/IROS_2026_presentation_1.jpeg" style="margin-left: 50px;" alt="Presentation Photo" width="520" />
 
 - **Conference Poster (PDF)**:  
   <a class="talk-btn" href="/files/posters/2025-WCX-poster.pdf" target="_blank" style="padding: 4px 12px; font-weight: 600; margin-bottom: 8px;">📄 Open Poster PDF</a>
