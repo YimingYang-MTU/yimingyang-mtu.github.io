@@ -103,7 +103,7 @@ redirect_from:
       <!--<div class="pyramid-caption">AutoDrive Competition</div> -->
     </div>
     <div class="pyramid-item">
-      <img src="/images/me/image_v2x_field_test2.jpg" alt="Sensor Setup" />
+      <img src="/images/me/image_v2x_field_test2.png" alt="Sensor Setup" />
       <!--<div class="pyramid-caption">V2X Field Testing</div> -->
     </div>
   </div>
