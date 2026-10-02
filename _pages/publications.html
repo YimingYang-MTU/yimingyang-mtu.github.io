@@ -86,7 +86,7 @@ author_profile: true
       <div class="pub-item">
         
         <div class="pub-title">
-          {% if post.has_page == true %}
+          {% if post.has_page == true or post.has_page == "true" %}
             <!-- Links to dedicated site page in blue -->
             <a class="pub-title-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
           {% elsif post.paperurl %}

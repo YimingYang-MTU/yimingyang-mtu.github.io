@@ -24,24 +24,24 @@ redirect_from:
     height: 280px; /* Panoramic height for graduation banner */
   }
 
-  /* Row 2: 3 Medium Research / Field Work Images */
+  /* Row 2: 2 Medium Research / Field Work Images */
   .pyramid-row-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
   .pyramid-row-2 .pyramid-item img {
-    height: 160px;
+    height: 190px;
   }
 
-  /* Row 3: 4 Small Lifestyle / Sports / Team Images */
+  /* Row 3: 3 Small Lifestyle / Sports / Team Images */
   .pyramid-row-3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 8px;
   }
   .pyramid-row-3 .pyramid-item img {
-    height: 110px;
+    height: 140px;
   }
 
   /* Shared Card Styling */
@@ -280,7 +280,7 @@ I am a **Postdoctoral Researcher** at **Oklahoma State University**, working in 
     <div class="timeline-body">
       Focused on autonomous vehicle control, trajectory tracking, and connected and automated vehicle (CAV) platoon control.
       <ul>
-        <li><strong>Autonomous Vehicle Control:</strong> PID control for gas, brake, steering.<li> <li><strong>Trajectory TRracking:</strong> Purepursuit controller, Model Predictive Control (MPC).<li>
+        <li><strong>Autonomous Vehicle Control:</strong> PID control for gas, brake, steering.</li> <li><strong>Trajectory TRracking:</strong> Purepursuit controller, Model Predictive Control (MPC).</li>
         <li><strong>Platoon Control:</strong> Distributed Model Predictive Control (DMPC) and Deep Deterministic Policy Gradient (DDPG) reinforcement learning.</li>
       </ul>
     </div>

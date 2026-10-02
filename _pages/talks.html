@@ -100,13 +100,13 @@ author_profile: true
     <!-- Quick Action Buttons -->
     <div class="talk-links">
       {% if post.has_page == true or post.permalink %}
-        <a class="talk-btn" href="{{ post.url | relative_url }}">Talk Page & Media</a>
+        <!-- <a class="talk-btn" href="{{ post.url | relative_url }}">Talk Page & Media</a>-->
       {% endif %}
       {% if post.slides_url and post.slides_url != "" %}
-        <a class="talk-btn" href="{{ post.slides_url }}" target="_blank">Slides</a>
+        <!-- <a class="talk-btn" href="{{ post.slides_url }}" target="_blank">Slides</a>-->
       {% endif %}
       {% if post.paper_url and post.paper_url != "" %}
-        <a class="talk-btn" href="{{ post.paper_url }}" target="_blank">Paper / Link</a>
+        <!-- <a class="talk-btn" href="{{ post.paper_url }}" target="_blank">Paper / Link</a>-->
       {% endif %}
     </div>
 
