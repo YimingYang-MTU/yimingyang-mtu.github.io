@@ -8,7 +8,6 @@ author_profile: true
 {% include base_path %}
 
 <style>
-  /* Compact layout styles */
   .pub-item {
     margin-bottom: 14px;
     line-height: 1.35;
@@ -17,6 +16,7 @@ author_profile: true
     font-weight: 600;
     font-size: 1.05rem;
     margin-bottom: 2px;
+    color: #111827;
   }
   .pub-title a {
     color: #0366d6;
@@ -64,8 +64,9 @@ author_profile: true
   }
 </style>
 
-{% assign cat_keys = "under_review,journals,conferences" | split: "," %}
-{% assign cat_names = "Under Review,Journal Articles,Conference Proceedings" | split: "," %}
+<!-- 1. Section Order: Conferences -> Journals -> Under Review -->
+{% assign cat_keys = "conferences,journals,under_review" | split: "," %}
+{% assign cat_names = "Conference Proceedings,Journal Articles,Under Review" | split: "," %}
 
 {% for key in cat_keys %}
   {% assign idx = forloop.index0 %}
@@ -77,49 +78,41 @@ author_profile: true
     <hr class="pub-hr" />
     {% for post in papers %}
       <div class="pub-item">
-        <!-- Clickable title linking directly to individual paper page -->
+        
+        <!-- Title & Link Conditionals -->
         <div class="pub-title">
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          {% if post.paperurl %}
+            <!-- Direct link to publisher / PDF if provided -->
+            <a href="{{ post.paperurl }}" target="_blank">{{ post.title }}</a>
+          {% elsif post.has_page == true %}
+            <!-- Link to individual site page only if explicitly enabled -->
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          {% else %}
+            <!-- Plain bold text for co-authored / no-link papers -->
+            <span>{{ post.title }}</span>
+          {% endif %}
         </div>
+
         <div class="pub-authors">
           {% if post.authors %}{{ post.authors }}{% else %}Yiming Yang, Jeremy P. Bos{% endif %}
         </div>
         <div class="pub-venue">
-          Published in <i>{% if post.venue %}{{ post.venue }}{% endif %}</i>, {{ post.date | date: "%Y" }}
+          {% if post.venue %}{{ post.venue }}, {% endif %}{{ post.date | date: "%Y" }}
         </div>
-        <div class="pub-links">
-          <a class="pub-btn" href="{{ post.url | relative_url }}">Paper Page</a>
-          {% if post.paperurl %}
-            <a class="pub-btn" href="{{ post.paperurl }}" target="_blank">PDF / Link</a>
-          {% endif %}
-        </div>
+
+        <!-- Optional Action Buttons -->
+        {% if post.paperurl or post.has_page == true %}
+          <div class="pub-links">
+            {% if post.paperurl %}
+              <a class="pub-btn" href="{{ post.paperurl }}" target="_blank">PDF / Link</a>
+            {% endif %}
+            {% if post.has_page == true %}
+              <a class="pub-btn" href="{{ post.url | relative_url }}">Paper Page</a>
+            {% endif %}
+          </div>
+        {% endif %}
+
       </div>
     {% endfor %}
   {% endif %}
 {% endfor %}
-
-{% comment %} Catch papers without a category front-matter field {% endcomment %}
-{% assign uncategorized = site.publications | where_exp: "item", "item.category == nil" | sort: "date" | reverse %}
-{% if uncategorized.size > 0 %}
-  <h2 class="pub-sec-title">Other Publications</h2>
-  <hr class="pub-hr" />
-  {% for post in uncategorized %}
-    <div class="pub-item">
-      <div class="pub-title">
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </div>
-      <div class="pub-authors">
-        {% if post.authors %}{{ post.authors }}{% else %}Yiming Yang, Jeremy P. Bos{% endif %}
-      </div>
-      <div class="pub-venue">
-        Published in <i>{% if post.venue %}{{ post.venue }}{% endif %}</i>, {{ post.date | date: "%Y" }}
-      </div>
-      <div class="pub-links">
-        <a class="pub-btn" href="{{ post.url | relative_url }}">Paper Page</a>
-        {% if post.paperurl %}
-          <a class="pub-btn" href="{{ post.paperurl }}" target="_blank">PDF / Link</a>
-        {% endif %}
-      </div>
-    </div>
-  {% endfor %}
-{% endif %}
