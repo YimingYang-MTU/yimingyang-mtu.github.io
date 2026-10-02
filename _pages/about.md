@@ -249,7 +249,7 @@ I am a **Postdoctoral Researcher** at **Oklahoma State University**, working in 
     <div class="timeline-date">2021 – 2026</div>
     <h3 class="timeline-role">Ph.D. in Electrical & Computer Engineering</h3>
     <div class="timeline-institution">
-      Michigan Technological University &bull; Planetary Surface Technology Development Lab
+      Michigan Technological University &bull; Department of Electrical and Computer Engineering
     </div>
     <div class="timeline-body">
       Advised by <a href="https://scholar.google.com/citations?user=Iacaw6IAAAAJ&hl=en&oi=ao" target="_blank">Dr. Jeremy P. Bos</a>, concentrating on field robotics and off-road/winter vehicle autonomy.

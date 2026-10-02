@@ -2,7 +2,7 @@
 title: "Infrastructure Preparedness for Autonomous Vehicles in Rural Areas"
 collection: publications
 category: journals
-priority: 15
+priority: 5
 has_page: false
 permalink: /publication/2026-09-25-Sensors-Infrastructure
 date: 2026-09-25
