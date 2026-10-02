@@ -9,29 +9,34 @@ author_profile: true
 
 <style>
   .pub-item {
-    margin-bottom: 14px;
-    line-height: 1.35;
+    margin-bottom: 16px;
+    line-height: 1.38;
   }
   .pub-title {
-    font-weight: 600;
     font-size: 1.05rem;
     margin-bottom: 2px;
-    color: #111827;
   }
-  .pub-title a {
-    color: #0366d6;
+  /* Blue link for papers with dedicated pages or URLs */
+  a.pub-title-link {
+    color: #0366d6 !important;
+    font-weight: 600;
     text-decoration: none;
   }
-  .pub-title a:hover {
+  a.pub-title-link:hover {
     text-decoration: underline;
+  }
+  /* Dark text for papers without individual pages or links */
+  .pub-title-plain {
+    color: #1f2937;
+    font-weight: 600;
   }
   .pub-authors {
     font-size: 0.90rem;
-    color: #333333;
+    color: #374151;
   }
   .pub-venue {
     font-size: 0.88rem;
-    color: #555555;
+    color: #6b7280;
     font-style: italic;
   }
   .pub-links {
@@ -42,36 +47,37 @@ author_profile: true
     display: inline-block;
     padding: 1px 7px;
     margin-right: 5px;
-    background-color: #f1f3f5;
+    background-color: #f3f4f6;
     border: 1px solid #d1d5db;
     border-radius: 3px;
-    color: #333333 !important;
+    color: #374151 !important;
     text-decoration: none !important;
   }
   .pub-btn:hover {
     background-color: #e5e7eb;
   }
   .pub-sec-title {
-    margin-top: 25px;
+    margin-top: 28px;
     margin-bottom: 4px;
     font-size: 1.35rem;
   }
   hr.pub-hr {
     margin-top: 2px;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
     border: 0;
     border-top: 1px solid #e5e7eb;
   }
 </style>
 
-<!-- 1. Section Order: Conferences -> Journals -> Under Review -->
 {% assign cat_keys = "conferences,journals,under_review" | split: "," %}
 {% assign cat_names = "Conference Proceedings,Journal Articles,Under Review" | split: "," %}
 
 {% for key in cat_keys %}
   {% assign idx = forloop.index0 %}
   {% assign category_name = cat_names[idx] %}
-  {% assign papers = site.publications | where: "category", key | sort: "date" | reverse %}
+  
+  {% comment %} Sort papers by priority field (1, 2, 3...) {% endcomment %}
+  {% assign papers = site.publications | where: "category", key | sort: "priority" %}
 
   {% if papers.size > 0 %}
     <h2 class="pub-sec-title">{{ category_name }}</h2>
@@ -79,28 +85,27 @@ author_profile: true
     {% for post in papers %}
       <div class="pub-item">
         
-        <!-- Title & Link Conditionals -->
         <div class="pub-title">
-          {% if post.paperurl %}
-            <!-- Direct link to publisher / PDF if provided -->
-            <a href="{{ post.paperurl }}" target="_blank">{{ post.title }}</a>
-          {% elsif post.has_page == true %}
-            <!-- Link to individual site page only if explicitly enabled -->
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          {% if post.has_page == true %}
+            <!-- Links to dedicated site page in blue -->
+            <a class="pub-title-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          {% elsif post.paperurl %}
+            <!-- Links directly to publisher/PDF in blue -->
+            <a class="pub-title-link" href="{{ post.paperurl }}" target="_blank">{{ post.title }}</a>
           {% else %}
-            <!-- Plain bold text for co-authored / no-link papers -->
-            <span>{{ post.title }}</span>
+            <!-- Dark plain text when no page or link exists -->
+            <span class="pub-title-plain">{{ post.title }}</span>
           {% endif %}
         </div>
 
         <div class="pub-authors">
           {% if post.authors %}{{ post.authors }}{% else %}Yiming Yang, Jeremy P. Bos{% endif %}
         </div>
+        
         <div class="pub-venue">
           {% if post.venue %}{{ post.venue }}, {% endif %}{{ post.date | date: "%Y" }}
         </div>
 
-        <!-- Optional Action Buttons -->
         {% if post.paperurl or post.has_page == true %}
           <div class="pub-links">
             {% if post.paperurl %}
