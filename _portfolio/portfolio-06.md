@@ -1,6 +1,6 @@
 ---
 title: "OSM to VISUM: Automated Infrastructure Generation for Transport Planning"  
-excerpt: "An automated toolchain converting OpenStreetMap into VISUM networks, streamlining macroscopic transport planning and demand modeling.<br/><img src='/images/portfolio6/osm2visum.png' width='600' height='300'>"  
+excerpt: "An automated toolchain converting OpenStreetMap into VISUM networks.<br/><img src='/images/portfolio6/osm2visum.png' width='600' height='300'>"  
 collection: portfolio  
 ---
 

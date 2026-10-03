@@ -1,6 +1,6 @@
 ---
 title: "OSM to VISSIM: Automating Large-Scale Traffic Network Modeling"  
-excerpt: "A pipeline generating high-fidelity VISSIM road networks from OSM, enabling rapid setup of large-scale microscopic traffic simulations.<br/><img src='/images/portfolio7/vissim_network.png' width='600' height='300'>"  
+excerpt: "Generating high-fidelity VISSIM networks from OSM, rapid setup of large-scale microscopic traffic simulations.<br/><img src='/images/portfolio7/vissim_network.png' width='600' height='300'>"  
 collection: portfolio  
 ---
 

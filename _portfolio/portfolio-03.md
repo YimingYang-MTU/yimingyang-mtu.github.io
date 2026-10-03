@@ -1,5 +1,5 @@
 ---
-title: "The Railroad Crossing Vehicle Warning system"
+title: "The Railroad Crossing Vehicle Warning (RCVW) system"
 excerpt: "V2X safety warning system deployed at active Highway-Rail Grade Crossings.<br/><img src='/images/portfolio3/rail_crossing_car_train.jpg' width='500' height='300'>"
 collection: portfolio
 ---
