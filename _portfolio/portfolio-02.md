@@ -27,7 +27,7 @@ collection: portfolio
 <h2 style="margin-top: 40px; margin-bottom: 24px; font-size: 22px; font-weight: bold;">Evolution</h2>
 
 <!-- Timeline Container -->
-<div style="position: relative; padding-left: 28px; margin-left: 8px;">
+<div style="position: relative; padding-left: 38px; margin-left: 8px;">
 
   <!-- Dedicated Vertical Line (Starts at Gen 5 circle, ends at Gen 1 circle) -->
   <div style="position: absolute; left: 0; top: 12px; bottom: 24px; width: 3px; background-color: #ea6a2e;"></div>
