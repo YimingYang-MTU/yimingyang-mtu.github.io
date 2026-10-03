@@ -1,12 +1,12 @@
 ---
 title: "SAE AutoDrive Challenge II"
-excerpt: "Graduate Teaching Assistant (GTA) for SAE AutoDrive Challenge II. <br/><img src='/images/portfolio1/team_photo.jpg' width='500' height='300'>"
+excerpt: "Graduate Teaching Assistant (GTA) for SAE AutoDrive Challenge II. <br/><img src='/images/portfolio1/adii_team18.jpg' width='500' height='300'>"
 collection: portfolio
 ---
 
 <!-- Header Banner -->
 <div style="margin-bottom: 32px; text-align: center;">
-  <img src="/images/portfolio1/adii_team18.jpg" alt="SAE AutoDrive Team 18" style="max-width: 100%; width: 600px; height: auto; border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,0.12);" />
+  <img src="/images/portfolio1/team_photo.jpg" alt="SAE AutoDrive Team 18" style="max-width: 100%; width: 600px; height: auto; border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,0.12);" />
 </div>
 
 <!-- ==========================================
