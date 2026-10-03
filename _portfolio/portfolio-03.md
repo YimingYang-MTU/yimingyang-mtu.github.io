@@ -1,6 +1,6 @@
 ---
-title: "Integration of Unmanned Aerial Systems Data Collection Into Day-to-Day Usage for Transportation Infrastructure – A Phase III Project"
-excerpt: "Processed and analyzed large-scale drone imagery for transportation infrastructure assessment. Established data pipelines for training deep learning traffic models.<br/> <img src='/images/portfolio3/object_detection_tracking.png' width='500' height='300'>"
+title: "Unmanned Aerial Systems Data Collection for Transportation Infrastructure"
+excerpt: "Large-scale drone imagery for transportation infrastructure assessment.<br/> <img src='/images/portfolio3/object_detection_tracking.png' width='500' height='300'>"
 collection: portfolio
 ---
 

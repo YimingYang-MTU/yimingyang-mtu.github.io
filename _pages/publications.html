@@ -109,10 +109,10 @@ author_profile: true
         {% if post.paperurl or post.has_page == true %}
           <div class="pub-links">
             {% if post.paperurl %}
-              <a class="pub-btn" href="{{ post.paperurl }}" target="_blank">PDF / Link</a>
+              <!--<a class="pub-btn" href="{{ post.paperurl }}" target="_blank">PDF / Link</a>-->
             {% endif %}
             {% if post.has_page == true %}
-              <a class="pub-btn" href="{{ post.url | relative_url }}">Paper Page</a>
+              <!--<a class="pub-btn" href="{{ post.url | relative_url }}">Paper Page</a>-->
             {% endif %}
           </div>
         {% endif %}
