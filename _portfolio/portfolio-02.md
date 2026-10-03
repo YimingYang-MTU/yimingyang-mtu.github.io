@@ -4,50 +4,53 @@ excerpt: "Samplingf-based aggressive autonomous control in winter low-friction c
 collection: portfolio
 ---
 
+## Testing Video ##
+<h2>Testing Video</h2>
+
+<div style="display: flex; gap: 16px; flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 220px;">
+    <p>Aggressive driving on dirt.</p>
+    <iframe width="100%" style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/SV9yYUVIK1k?si=j4nLxwaD2pE8SK8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+
+  <div style="flex: 1; min-width: 220px;">
+    <p>Aggressive driving on snow and ice.</p>
+    <iframe width="100%" style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/kcaGpZQ92J8?si=QkDEf37DV6RToSWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+
+  <div style="flex: 1; min-width: 220px;">
+    <p>Aggressive drifting.</p>
+    <iframe width="100%" style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/sKJetujinQ8?si=dBfnKgQ0nGFxMTTi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+</div>
+
 ## Gen 5
-<hr style="height:2px; border-width:0; color:gray; background-color:gray">
 - **Final version**: More integrated and protected laptop 
 - **Features**: Snow melt water proof
-- **Experiments**: Most aggressive testing on dirt and snow 
+- **Experiments**: Aggressive driving on dirt and snow 
 
-  <img src="/images/portfolio2/codmax_gen5.jpg" alt="Test" width="520" />
-
-
----
+  <img src="/images/portfolio2/Test_platform.jpg" alt="Test" width="520" />
 
 ## Gen 4
-<hr style="height:2px; border-width:0; color:gray; background-color:gray">
-
-- **Gen4 version**: Real field test on snow and ice 
+- **Gen4**: Real field test on snow and ice 
 - **Experiments**: Aggressive testing on snow and ice
 
   <img src="/images/portfolio2/codmax_gen4.jpg" alt="Steering Test" width="520" />
 
-
----
-
 ## Gen 3
-<hr style="height:2px; border-width:0; color:gray; background-color:gray">
-
-- **Gen3 version**: One piece solution with laptop (GPU)
+- **Gen3**: One piece solution with laptop (GPU)
 - **Experiments**: Vehicle-in-the-loop indoor testing
 
-  <img src="/images/portfolio2/codmax_gen3.HEIC" alt="Trunk Rack" width="500" />  
-
+  <img src="/images/portfolio2/codmax_gen3.jpg" alt="Trunk Rack" width="500" />  
 
 ## Gen 2
-<hr style="height:2px; border-width:0; color:gray; background-color:gray">
-
-- **Gen2 version**: Exploring and testing different hardwares 
-- **Experiments**: Modular indoor testing
+- **Gen2**: Exploring and testing different hardwares 
+- **Development**: Modular indoor testing
 
   <img src="/images/portfolio2/codmax_gen2.jpg" alt="Trunk Rack" width="500" />  
 
-
 ## Gen 1
-<hr style="height:2px; border-width:0; color:gray; background-color:gray">
-
-- **Gen2 version**: 1:5 scale chassis 
-- **Experiments**: Powertrain selection and control test
+- **Gen1**: 1:5 scale chassis 
+- **Development**: Powertrain selection and control test
 
   <img src="/images/portfolio2/codmax_gen1.jpg" alt="Trunk Rack" width="500" />  
