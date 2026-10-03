@@ -1,16 +1,29 @@
 ---
-title: "OSM to VISUM: Automated Infrastructure Generation for Transport Planning"  
-excerpt: "An automated toolchain converting OpenStreetMap into VISUM networks, streamlining macroscopic transport planning and demand modeling.<br/><img src='/images/portfolio5/osm2visum.png' width='600' height='300'>"  
-collection: portfolio  
+title: "Microscopic Traffic Safety Analysis and macro-level transportation analysis"
+excerpt: "Multi-scale traffic analysis combining microscopic safety metrics with macroscopic transportation trends.<br/> <img src='/images/portfolio5/lane_polygon_for_map_matching.png' width='500' height='300'>"
+collection: portfolio
 ---
 
-- **Motivation**: In transportation planning, PTV VISUM is a powerful tool for simulating road networks, origin-destination (OD) matrix estimation and analysis, traffic assignment & simulation, etc. However, manually modeling large-scale networks—beyond just a few intersections becomes time-consuming and inefficient. To streamline this process, I leveraged OSM, an open-source geospatial database, to automate VISUM network generation for large areas. By extracting OSM road topology and converting it into VISUM-compatible formats, this approach significantly reduces manual effort while enabling scalable, high-fidelity traffic simulations.
+---
 
-1. OpenStreetMap (OSM) represents geographic features—such as roads, railways, parks, and points of interest—using nodes, ways, and tags. However, for transportation planning in VISUM, networks must be constructed with guaranteed connectivity to ensure a traversable path exists between any two nodes.
-    <img src="/images/portfolio5/osm2visum_node_link.png" alt="Test" width="520" /> 
-2. To generate POIs from OSM, extract building/amenity polygons, calculate their centroids and areas, while automated zone division can be achieved by partitioning OSM boundaries into grid-based or administrative units with computed shape points and centroids.
-   <img src="/images/portfolio5/osm2visum_zones_1.png" alt="Test" width="520" />  
-3. Export functionality to VISUM-compatible formats (e.g., .net or .ver files) with correct link-node topology for traffic assignment. Validated outputs by importing into VISUM for transportation assignment.
-     <img src="/images/portfolio5/osm2visum_transportation_assignment_1.png" alt="Test" width="520" />  
-4. Enabled rapid scenario testing for urban planning (e.g., new infrastructure impact studies). Reduced manual network-building time from days to minutes.  
-    <img src="/images/portfolio5/osm2visum_export.png" alt="Test" width="520" /> 
+## Microscopic Traffic Safety Analysis
+<hr style="height:2px; border-width:0; color:gray; background-color:gray">
+
+Leveraging Waymo dataset, I conducted a granular safety analysis by:
+1. Visualizing agent dynamics (position, velocity, yaw) alongside road markings and boundaries.  
+  <img src="/images/portfolio5/traffic_analysis.gif" alt="Test" width="520" />  
+1. Extracting lane geometries (IDs, shapes) to map connectivity.  
+  <img src="/images/portfolio5/lane_center_line_visualization.png" alt="Test" width="520" />  
+1. Identifying conflict points at intersections.   
+  <img src="/images/portfolio5/conflict_point_intersection.png" alt="Test" width="520" />  
+1. Generating lane polygons for precise map-matching.  
+  <img src="/images/portfolio5/lane_polygon_map_matching.png" alt="Test" width="520" />  
+
+
+---
+
+## Macro-level transportation analysis
+<hr style="height:2px; border-width:0; color:gray; background-color:gray">
+
+I conducted an Origin-Destination (OD) analysis using the Weijo dataset to examine daily travel patterns at the block group level, identifying key mobility trends, peak-hour congestion zones, and trip distribution dynamics.  
+  <img src="/images/portfolio5/transportation_analysis.png" alt="Test" width="520" />  

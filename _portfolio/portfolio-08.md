@@ -1,18 +1,13 @@
 ---
-title: "QLTD Intelligent and Connected Expressway Testbase construction"
-excerpt: "Autonomous control and V2X development for AV platoon.<br/> <img src='/images/portfolio8/platoon_back.jpg' width='500' height='300'>"
+title: "Construction and Site Testing for Auto-driving Electric Vehicles"
+excerpt: "Validated CAN communication and by-wire control for electric AV.<br/><img src='/images/portfolio8/EV_xinda.png' width='500' height='300'>"
 collection: portfolio
 ---
-   
-1. Implemented the Intelligent Driver Model (IDM) with adaptive parameters for highway car-following using V2X communication.  
-   <img src="/images/portfolio8/platoon_bird_eye_view_inside_car.gif" alt="Test" width="520" />    
 
-2. Developed and tested a V2X-based rear-end collision warning system.
-   <img src="/images/portfolio8/v2x_rear_ended_warning.gif" alt="Test" width="520" />   
 
-3. Developed a V2X-based remote control system, enabling an operator to control the vehicle from 20 km away at the traffic center. 
-   <img src="/images/portfolio8/v2x_remote_control.gif" alt="Test" width="520" />   
-
-4. Performed highway platoon tests under mixed traffic conditions, leveraging V2V (DSRC/C-V2X) for cohesive platoon behavior.
-   <img src="/images/portfolio8/platoon_truck.jpg" alt="Test" width="520" />   
-
+1. CAN Bus Communication:  
+Developed an STM32-based CAN protocol for real-time data exchange between autonomous systems and EV components.  
+1. Drive-by-Wire Calibration:  
+Engineered precise control algorithms for electric power steering (EPS), propulsion, and braking systems, ensuring compliance with autonomous driving requirements.  
+1. Electrification Transition:  
+Led hardware/software adaptation efforts to transition from gasoline to EV architecture, resolving compatibility challenges.  

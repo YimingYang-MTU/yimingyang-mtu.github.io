@@ -1,16 +1,16 @@
 ---
-title: "OSM to VISSIM: Automating Large-Scale Traffic Network Modeling"  
-excerpt: "A pipeline generating high-fidelity VISSIM road networks from OSM, enabling rapid setup of large-scale microscopic traffic simulations.<br/><img src='/images/portfolio6/vissim_network.png' width='600' height='300'>"  
+title: "OSM to VISUM: Automated Infrastructure Generation for Transport Planning"  
+excerpt: "An automated toolchain converting OpenStreetMap into VISUM networks, streamlining macroscopic transport planning and demand modeling.<br/><img src='/images/portfolio6/osm2visum.png' width='600' height='300'>"  
 collection: portfolio  
 ---
 
-- **Motivation**: In microscopic traffic simulation, PTV VISSIM specializes in modeling complex, dynamic interactions between vehicles, pedestrians, and infrastructure. VISSIM excels at detailed scenarios: signal timing, intersection performance, and connected/autonomous vehicle testing. However, manually constructing large networks (with precise lane geometries, signal heads, and driver behavior parameters) is labor-intensive. To automate this, I developed a pipeline that converts OSM road topology into VISSIM-compatible networks, preserving key microscopic features. This approach enables rapid generation of high-resolution models for corridor studies or city-scale simulations while maintaining VISSIM’s fidelity in emulating real-world traffic dynamics.  
+- **Motivation**: In transportation planning, PTV VISUM is a powerful tool for simulating road networks, origin-destination (OD) matrix estimation and analysis, traffic assignment & simulation, etc. However, manually modeling large-scale networks—beyond just a few intersections becomes time-consuming and inefficient. To streamline this process, I leveraged OSM, an open-source geospatial database, to automate VISUM network generation for large areas. By extracting OSM road topology and converting it into VISUM-compatible formats, this approach significantly reduces manual effort while enabling scalable, high-fidelity traffic simulations.
 
-1. When converting OSM road networks to VISSIM, accurate intersection modeling requires dimensioning based on three key factors: (1) the intersection type/level (e.g., signalized, stop-controlled, or roundabout), (2) the number of approach lanes per connecting link (derived from OSM's lanes tag or inferred from road class), and (3) the posted speed limit (from OSM maxspeed or regional defaults). For standardized layouts, the MUTCD (Manual on Uniform Traffic Control Devices) provides typical design templates (e.g., lane widths, corner radii, and stop bar placements), which should be referenced to ensure realistic geometry.  
-     <img src="/images/portfolio6/vissim_intersection_design.png" alt="Test" width="520" />  
-2. Spline-based modeling generates VISSIM intersection connectors capable of accurately representing diverse movement types, including through movements, left/right turns, and complex irregular turning paths.
-    <img src="/images/portfolio6/vissim_intersection_connector.png" alt="Test" width="520" /> 
-3. In VISSIM, accurate traffic simulation requires precise modeling of both intersection connectors and the links between intersections. The proposed methodology adaptively processes link types from regular geometric to complex irregular alignments, ensuring network fidelity across diverse scenarios.
-    <img src="/images/portfolio6/vissim_intersection_link.png" alt="Test" width="520" /> 
-4. The proposed program generates output files in the standard PTV VISSIM format (.inpx), which can be directly imported and executed in VISSIM for immediate simulation. This ensures full compatibility with VISSIM’s native environment while eliminating manual conversion steps.   
-    <img src="/images/portfolio6/vissim_network_simulation.png" alt="Test" width="520" /> 
+1. OpenStreetMap (OSM) represents geographic features—such as roads, railways, parks, and points of interest—using nodes, ways, and tags. However, for transportation planning in VISUM, networks must be constructed with guaranteed connectivity to ensure a traversable path exists between any two nodes.
+    <img src="/images/portfolio6/osm2visum_node_link.png" alt="Test" width="520" /> 
+2. To generate POIs from OSM, extract building/amenity polygons, calculate their centroids and areas, while automated zone division can be achieved by partitioning OSM boundaries into grid-based or administrative units with computed shape points and centroids.
+   <img src="/images/portfolio6/osm2visum_zones_1.png" alt="Test" width="520" />  
+3. Export functionality to VISUM-compatible formats (e.g., .net or .ver files) with correct link-node topology for traffic assignment. Validated outputs by importing into VISUM for transportation assignment.
+     <img src="/images/portfolio6/osm2visum_transportation_assignment_1.png" alt="Test" width="520" />  
+4. Enabled rapid scenario testing for urban planning (e.g., new infrastructure impact studies). Reduced manual network-building time from days to minutes.  
+    <img src="/images/portfolio6/osm2visum_export.png" alt="Test" width="520" /> 

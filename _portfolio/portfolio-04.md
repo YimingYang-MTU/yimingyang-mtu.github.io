@@ -1,29 +1,18 @@
 ---
-title: "Microscopic Traffic Safety Analysis and macro-level transportation analysis"
-excerpt: "Multi-scale traffic analysis combining microscopic safety metrics with macroscopic transportation trends.<br/> <img src='/images/portfolio4/lane_polygon_for_map_matching.png' width='500' height='300'>"
+title: "Unmanned Aerial Systems Data Collection for Transportation Infrastructure"
+excerpt: "Large-scale drone imagery for transportation infrastructure assessment.<br/> <img src='/images/portfolio4/object_detection_tracking.png' width='500' height='300'>"
 collection: portfolio
 ---
 
----
+- **Project overview**: Unmanned/uncrewed aerial systems (UAS) offer advanced capabilities for transportation infrastructure monitoring and condition assessment. This Phase 3 project explored four UAS use cases: traffic operations, bridge inspection, construction inspection, and LiDAR-based design surveys - and their integration into MDOT databases and workflows. Field data collections across Michigan demonstrated how UAS methods generate high-resolution geospatial outputs for MDOT operations. Project report can be found [here](https://rosap.ntl.bts.gov/view/dot/62974#:~:text=This%20Phase%203%20project%20focused,lidar%20UAS%20for%20design%20survey.). Key results included:  
+1. Traffic Operations: Origin-destination analysis and    traffic counts.  
+2. Bridge Inspection: Automated detection of spalls/delaminations and 3D bridge models.  
+3. Construction Inspection: Production rates for concrete/asphalt work and BIM data.  
+4. LiDAR Surveys: High-resolution 3D models for design surveys.  
 
-## Microscopic Traffic Safety Analysis
-<hr style="height:2px; border-width:0; color:gray; background-color:gray">
-
-Leveraging Waymo dataset, I conducted a granular safety analysis by:
-1. Visualizing agent dynamics (position, velocity, yaw) alongside road markings and boundaries.  
-  <img src="/images/portfolio4/traffic_analysis.gif" alt="Test" width="520" />  
-1. Extracting lane geometries (IDs, shapes) to map connectivity.  
-  <img src="/images/portfolio4/lane_center_line_visualization.png" alt="Test" width="520" />  
-1. Identifying conflict points at intersections.   
-  <img src="/images/portfolio4/conflict_point_intersection.png" alt="Test" width="520" />  
-1. Generating lane polygons for precise map-matching.  
-  <img src="/images/portfolio4/lane_polygon_map_matching.png" alt="Test" width="520" />  
-
-
----
-
-## Macro-level transportation analysis
-<hr style="height:2px; border-width:0; color:gray; background-color:gray">
-
-I conducted an Origin-Destination (OD) analysis using the Weijo dataset to examine daily travel patterns at the block group level, identifying key mobility trends, peak-hour congestion zones, and trip distribution dynamics.  
-  <img src="/images/portfolio4/transportation_analysis.png" alt="Test" width="520" />  
+- **Role**: Research Assistant  
+- **Tools**: Labeling tool  
+- **Contributions 1**: Data labeling for data collected on Williamston Road (I-96) Traffic Corridor.  
+- **Contributions 2**: Data analysis for OD insights and vehicle counts validation.  
+  <img src="/images/portfolio4/data_labeling.png" alt="Test" width="520" />
+ 
