@@ -23,12 +23,19 @@ collection: portfolio
   </div>
 </div>
 
-<div style="position: relative; border-left: 3px solid #ed6816; padding-left: 24px; margin-left: 12px;">
+<!-- Section Title -->
+<h2 style="margin-top: 40px; margin-bottom: 24px; font-size: 28px; font-weight: bold;">Evolution</h2>
+
+<!-- Timeline Container -->
+<div style="position: relative; padding-left: 28px; margin-left: 8px;">
+
+  <!-- Dedicated Vertical Line (Starts at Gen 5 circle, ends at Gen 1 circle) -->
+  <div style="position: absolute; left: 0; top: 12px; bottom: 24px; width: 3px; background-color: #ea6a2e;"></div>
 
   <!-- Gen 5 -->
   <div style="position: relative; margin-bottom: 40px;">
-    <div style="position: absolute; left: -32px; top: 4px; width: 13px; height: 13px; background-color: #ed6816; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ed6816;"></div>
-    <h2 style="margin: 0 0 8px 0;">Gen 5</h2>
+    <div style="position: absolute; left: -8px; top: 6px; width: 13px; height: 13px; background-color: #ea6a2e; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ea6a2e;"></div>
+    <h3 style="margin: 0 0 8px 0; font-size: 22px; font-weight: bold;">Gen 5</h3>
     <ul style="margin: 0 0 12px 0; padding-left: 20px;">
       <li>Improved integration and protect</li>
       <li>Aggressive driving on dirt, snow and ice</li>
@@ -38,8 +45,8 @@ collection: portfolio
 
   <!-- Gen 4 -->
   <div style="position: relative; margin-bottom: 40px;">
-    <div style="position: absolute; left: -32px; top: 4px; width: 13px; height: 13px; background-color: #ed6816; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ed6816;"></div>
-    <h2 style="margin: 0 0 8px 0;">Gen 4</h2>
+    <div style="position: absolute; left: -8px; top: 6px; width: 13px; height: 13px; background-color: #ea6a2e; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ea6a2e;"></div>
+    <h3 style="margin: 0 0 8px 0; font-size: 22px; font-weight: bold;">Gen 4</h3>
     <ul style="margin: 0 0 12px 0; padding-left: 20px;">
       <li>Real field test on snow and ice</li>
       <li>Aggressive testing on snow and ice</li>
@@ -49,8 +56,8 @@ collection: portfolio
 
   <!-- Gen 3 -->
   <div style="position: relative; margin-bottom: 40px;">
-    <div style="position: absolute; left: -32px; top: 4px; width: 13px; height: 13px; background-color: #ed6816; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ed6816;"></div>
-    <h2 style="margin: 0 0 8px 0;">Gen 3</h2>
+    <div style="position: absolute; left: -8px; top: 6px; width: 13px; height: 13px; background-color: #ea6a2e; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ea6a2e;"></div>
+    <h3 style="margin: 0 0 8px 0; font-size: 22px; font-weight: bold;">Gen 3</h3>
     <ul style="margin: 0 0 12px 0; padding-left: 20px;">
       <li>Use laptop with GPU for MPPI</li>
       <li>Vehicle-in-the-loop indoor testing</li>
@@ -60,8 +67,8 @@ collection: portfolio
 
   <!-- Gen 2 -->
   <div style="position: relative; margin-bottom: 40px;">
-    <div style="position: absolute; left: -32px; top: 4px; width: 13px; height: 13px; background-color: #ed6816; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ed6816;"></div>
-    <h2 style="margin: 0 0 8px 0;">Gen 2</h2>
+    <div style="position: absolute; left: -8px; top: 6px; width: 13px; height: 13px; background-color: #ea6a2e; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ea6a2e;"></div>
+    <h3 style="margin: 0 0 8px 0; font-size: 22px; font-weight: bold;">Gen 2</h3>
     <ul style="margin: 0 0 12px 0; padding-left: 20px;">
       <li>Explore and test different hardwares</li>
       <li>Modular indoor testing</li>
@@ -71,8 +78,8 @@ collection: portfolio
 
   <!-- Gen 1 -->
   <div style="position: relative;">
-    <div style="position: absolute; left: -32px; top: 4px; width: 13px; height: 13px; background-color: #ed6816; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ed6816;"></div>
-    <h2 style="margin: 0 0 8px 0;">Gen 1</h2>
+    <div style="position: absolute; left: -8px; top: 6px; width: 13px; height: 13px; background-color: #ea6a2e; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ea6a2e;"></div>
+    <h3 style="margin: 0 0 8px 0; font-size: 22px; font-weight: bold;">Gen 1</h3>
     <ul style="margin: 0 0 12px 0; padding-left: 20px;">
       <li>1:5 scale electric chassis converted from gas</li>
       <li>Powertrain selection and control test</li>
