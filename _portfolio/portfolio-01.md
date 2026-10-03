@@ -1,6 +1,6 @@
 ---
 title: "SAE AutoDrive Challenge II"
-excerpt: "Graduate Teaching Assistant (GTA) for SAE AutoDrive Challenge II. <br/><img src='/images/portfolio1/ADII_team.jpg' width='500' height='300'>"
+excerpt: "Graduate Teaching Assistant (GTA) for SAE AutoDrive Challenge II. <br/><img src='/images/portfolio1/team_photo.jpg' width='500' height='300'>"
 collection: portfolio
 ---
 

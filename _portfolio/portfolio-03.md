@@ -10,6 +10,7 @@ collection: portfolio
 <div style="margin-bottom: 40px; background: #fafafa; border: 1px solid #e5e7eb; border-radius: 12px; padding: 24px;">
 
   <!-- Metadata Bar -->
+  <!--
   <div style="border-bottom: 2px solid #2563eb; padding-bottom: 16px; margin-bottom: 20px;">
     <h2 style="margin: 0 0 12px 0; font-size: 26px; color: #1e293b;">Railroad Crossing Vehicle Warning (RCVW) System</h2>
     
@@ -22,6 +23,7 @@ collection: portfolio
       </div>
     </div>
   </div>
+  -->
 
   <!-- Project Summary -->
   <div style="margin-bottom: 20px;">
