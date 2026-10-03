@@ -4,7 +4,6 @@ excerpt: "Samplingf-based aggressive autonomous control in winter low-friction c
 collection: portfolio
 ---
 
-## Testing Video ##
 <h2>Testing Video</h2>
 
 <div style="display: flex; gap: 16px; flex-wrap: wrap;">
@@ -14,43 +13,71 @@ collection: portfolio
   </div>
 
   <div style="flex: 1; min-width: 220px;">
-    <p>Aggressive driving on snow and ice.</p>
+    <p>Aggressive driving on ice.</p>
     <iframe width="100%" style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/kcaGpZQ92J8?si=QkDEf37DV6RToSWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
 
   <div style="flex: 1; min-width: 220px;">
-    <p>Aggressive drifting.</p>
+    <p>Autonomous drifting.</p>
     <iframe width="100%" style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/sKJetujinQ8?si=dBfnKgQ0nGFxMTTi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
 </div>
 
-## Gen 5
-- **Final version**: More integrated and protected laptop 
-- **Features**: Snow melt water proof
-- **Experiments**: Aggressive driving on dirt and snow 
+<div style="position: relative; border-left: 3px solid #ed6816; padding-left: 24px; margin-left: 12px;">
 
-  <img src="/images/portfolio2/Test_platform.jpg" alt="Test" width="520" />
+  <!-- Gen 5 -->
+  <div style="position: relative; margin-bottom: 40px;">
+    <div style="position: absolute; left: -32px; top: 4px; width: 13px; height: 13px; background-color: #ed6816; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ed6816;"></div>
+    <h2 style="margin: 0 0 8px 0;">Gen 5</h2>
+    <ul style="margin: 0 0 12px 0; padding-left: 20px;">
+      <li>Improved integration and protect</li>
+      <li>Aggressive driving on dirt, snow and ice</li>
+    </ul>
+    <img src="/images/portfolio2/Test_platform.png" alt="Test" style="max-width: 100%; width: 520px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" />
+  </div>
 
-## Gen 4
-- **Gen4**: Real field test on snow and ice 
-- **Experiments**: Aggressive testing on snow and ice
+  <!-- Gen 4 -->
+  <div style="position: relative; margin-bottom: 40px;">
+    <div style="position: absolute; left: -32px; top: 4px; width: 13px; height: 13px; background-color: #ed6816; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ed6816;"></div>
+    <h2 style="margin: 0 0 8px 0;">Gen 4</h2>
+    <ul style="margin: 0 0 12px 0; padding-left: 20px;">
+      <li>Real field test on snow and ice</li>
+      <li>Aggressive testing on snow and ice</li>
+    </ul>
+    <img src="/images/portfolio2/codmax_gen4.jpg" alt="Steering Test" style="max-width: 100%; width: 520px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" />
+  </div>
 
-  <img src="/images/portfolio2/codmax_gen4.jpg" alt="Steering Test" width="520" />
+  <!-- Gen 3 -->
+  <div style="position: relative; margin-bottom: 40px;">
+    <div style="position: absolute; left: -32px; top: 4px; width: 13px; height: 13px; background-color: #ed6816; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ed6816;"></div>
+    <h2 style="margin: 0 0 8px 0;">Gen 3</h2>
+    <ul style="margin: 0 0 12px 0; padding-left: 20px;">
+      <li>Use laptop with GPU for MPPI</li>
+      <li>Vehicle-in-the-loop indoor testing</li>
+    </ul>
+    <img src="/images/portfolio2/codmax_gen3.jpg" alt="Trunk Rack" style="max-width: 100%; width: 500px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" />
+  </div>
 
-## Gen 3
-- **Gen3**: One piece solution with laptop (GPU)
-- **Experiments**: Vehicle-in-the-loop indoor testing
+  <!-- Gen 2 -->
+  <div style="position: relative; margin-bottom: 40px;">
+    <div style="position: absolute; left: -32px; top: 4px; width: 13px; height: 13px; background-color: #ed6816; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ed6816;"></div>
+    <h2 style="margin: 0 0 8px 0;">Gen 2</h2>
+    <ul style="margin: 0 0 12px 0; padding-left: 20px;">
+      <li>Explore and test different hardwares</li>
+      <li>Modular indoor testing</li>
+    </ul>
+    <img src="/images/portfolio2/codmax_gen2.jpg" alt="Trunk Rack" style="max-width: 100%; width: 500px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" />
+  </div>
 
-  <img src="/images/portfolio2/codmax_gen3.jpg" alt="Trunk Rack" width="500" />  
+  <!-- Gen 1 -->
+  <div style="position: relative;">
+    <div style="position: absolute; left: -32px; top: 4px; width: 13px; height: 13px; background-color: #ed6816; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ed6816;"></div>
+    <h2 style="margin: 0 0 8px 0;">Gen 1</h2>
+    <ul style="margin: 0 0 12px 0; padding-left: 20px;">
+      <li>1:5 scale electric chassis converted from gas</li>
+      <li>Powertrain selection and control test</li>
+    </ul>
+    <img src="/images/portfolio2/codmax_gen1.jpg" alt="Trunk Rack" style="max-width: 100%; width: 500px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" />
+  </div>
 
-## Gen 2
-- **Gen2**: Exploring and testing different hardwares 
-- **Development**: Modular indoor testing
-
-  <img src="/images/portfolio2/codmax_gen2.jpg" alt="Trunk Rack" width="500" />  
-
-## Gen 1
-- **Gen1**: 1:5 scale chassis 
-- **Development**: Powertrain selection and control test
-
-  <img src="/images/portfolio2/codmax_gen1.jpg" alt="Trunk Rack" width="500" />  
+</div>
