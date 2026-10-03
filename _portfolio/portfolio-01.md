@@ -1,6 +1,6 @@
 ---
 title: "SAE AutoDrive Challenge II"
-excerpt: "Graduate Teaching Assistant (GTA) for SAE AutoDrive Challenge II. <br/><img src='/images/portfolio1/adii_team18.jpg' width='500' height='300'>"
+excerpt: "Graduate Teaching Assistant (GTA) for SAE AutoDrive Challenge II. <br/><img src='/images/portfolio1/ADII_team.jpg' width='500' height='300'>"
 collection: portfolio
 ---
 
@@ -15,7 +15,7 @@ collection: portfolio
 <div style="margin-bottom: 50px; background: #fafafa; border: 1px solid #e5e7eb; border-radius: 12px; padding: 24px;">
   
   <!-- Year Title & Overview Bar -->
-  <div style="border-bottom: 2px solid #2563eb; padding-bottom: 12px; margin-bottom: 20px;">
+  <div style="border-bottom: 2px solid #eb6a25; padding-bottom: 12px; margin-bottom: 20px;">
     <h2 style="margin: 0 0 10px 0; font-size: 26px; color: #1e293b;">Year 4</h2>
     
     <div style="display: flex; flex-wrap: wrap; gap: 12px; font-size: 14px;">
@@ -27,10 +27,6 @@ collection: portfolio
       </div>
     </div>
   </div>
-
-  <p style="margin-bottom: 24px; color: #4b5563;">
-    Led a full-spectrum testing team managing vehicle dynamics, perception, planning, HMI, and mission management integration.
-  </p>
 
   <!-- Achievement Cards Grid -->
   <div style="display: flex; flex-direction: column; gap: 24px;">
@@ -93,7 +89,7 @@ collection: portfolio
 <div style="margin-bottom: 50px; background: #fafafa; border: 1px solid #e5e7eb; border-radius: 12px; padding: 24px;">
   
   <!-- Year Title & Overview Bar -->
-  <div style="border-bottom: 2px solid #2563eb; padding-bottom: 12px; margin-bottom: 20px;">
+  <div style="border-bottom: 2px solid #eb6a25; padding-bottom: 12px; margin-bottom: 20px;">
     <h2 style="margin: 0 0 10px 0; font-size: 26px; color: #1e293b;">Year 3</h2>
     
     <div style="display: flex; flex-wrap: wrap; gap: 12px; font-size: 14px;">
@@ -153,7 +149,7 @@ collection: portfolio
 <div style="margin-bottom: 50px; background: #fafafa; border: 1px solid #e5e7eb; border-radius: 12px; padding: 24px;">
   
   <!-- Year Title & Overview Bar -->
-  <div style="border-bottom: 2px solid #2563eb; padding-bottom: 12px; margin-bottom: 20px;">
+  <div style="border-bottom: 2px solid #eb6a25; padding-bottom: 12px; margin-bottom: 20px;">
     <h2 style="margin: 0 0 10px 0; font-size: 26px; color: #1e293b;">Year 2</h2>
     
     <div style="display: flex; flex-wrap: wrap; gap: 12px; font-size: 14px;">
