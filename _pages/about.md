@@ -160,7 +160,7 @@ I am a Postdoctoral Researcher at Oklahoma State University, working in the Scho
     box-shadow: 0 0 0 2px #000203;
   }
   .timeline-date {
-    font-size: 1.00rem;
+    font-size: 0.82rem;
     font-weight: 700;
     color: #07869c;
     letter-spacing: 0.5px;
@@ -168,13 +168,13 @@ I am a Postdoctoral Researcher at Oklahoma State University, working in the Scho
     margin-bottom: 4px;
   }
   .timeline-role {
-    font-size: 1.00rem;
+    font-size: 1.15rem;
     font-weight: 700;
     color: #0f172a;
     margin: 0 0 2px 0;
   }
   .timeline-institution {
-    font-size: 1.00rem;
+    font-size: 0.95rem;
     font-weight: 600;
     color: #475569;
     margin-bottom: 10px;
@@ -187,7 +187,7 @@ I am a Postdoctoral Researcher at Oklahoma State University, working in the Scho
     text-decoration: underline;
   }
   .timeline-body {
-    font-size: 1.00rem;
+    font-size: 0.92rem;
     color: #334155;
     line-height: 1.55;
   }
@@ -207,7 +207,7 @@ I am a Postdoctoral Researcher at Oklahoma State University, working in the Scho
   .tag {
     display: inline-block;
     padding: 2px 9px;
-    font-size: 1.00rem;
+    font-size: 0.78rem;
     font-weight: 600;
     border-radius: 12px;
     background-color: #e0f2fe;
