@@ -126,7 +126,7 @@ redirect_from:
 
 </div>
 
-I am a **Postdoctoral Researcher** at **Oklahoma State University**, working in the School of Civil and Environmental Engineering with. My research spans **Rural Automated Vehicles (RAVs)**, **Foundation Models**, **robust perception in adverse weather** and **Field Robotics**.
+I am a Postdoctoral Researcher at Oklahoma State University, working in the School of Civil and Environmental Engineering with. My research spans Rural Automated Vehicles (RAVs), Foundation Models, robust perception in adverse weather and Field Robotics.
 
 <style>
   /* Vertical Research Timeline Styling */
@@ -231,7 +231,7 @@ I am a **Postdoctoral Researcher** at **Oklahoma State University**, working in 
     <div class="timeline-body">
       Working with <a href="https://scholar.google.com/citations?user=OUcKeVkAAAAJ&hl=en" target="_blank">Dr. Joshua Li</a> focusing on rural autonomous driving.
       <ul>
-        <li><strong>Zero-Shot VLMs for Rural Driving:</strong> Benchmarking Vision-Language Models for road scene comprehension in off-grid and unpaved conditions.</li>
+        <li><strong>VLMs for Rural Driving:</strong> Benchmarking and improving Vision-Language Models for road scene comprehension in off-grid and unpaved conditions.</li>
         <li><strong>Infrastructure Preparedness for Autonomous Driving:</strong> AV-based framework for automated physical/digital infrastructure evaluation.</li>
         <li><strong>Teaching:</strong> ROS 2 and Autoware teaching.</li>
       </ul>
