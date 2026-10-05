@@ -1,7 +1,7 @@
 ---
 title: "QLTD Intelligent and Connected Expressway Testbase construction"
 excerpt: "Autonomous control and V2X development for AV platoon.<br/> <img src='/images/portfolio9/platoon_back.jpg' width='500' height='300'>"
-collection: portfolio
+collection: projects
 ---
    
 1. Implemented the Intelligent Driver Model (IDM) with adaptive parameters for highway car-following using V2X communication.  

@@ -1,7 +1,7 @@
 ---
 title: "CODMAX - Autonomous Testing Platform"
 excerpt: "Samplingf-based aggressive autonomous control in winter low-friction condition. <br/><img src='/images/portfolio2/codmax.png' width='500' height='300'>"
-collection: portfolio
+collection: projects
 ---
 
 <h2>Testing Video</h2>

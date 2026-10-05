@@ -1,7 +1,7 @@
 ---
 title: "Construction and Site Testing for Auto-driving Electric Vehicles"
 excerpt: "Validated CAN communication and by-wire control for electric AV.<br/><img src='/images/portfolio8/EV_xinda.png' width='500' height='300'>"
-collection: portfolio
+collection: projects
 ---
 
 <div style="background: #f8f9fa; border-left: 4px solid #0056b3; padding: 14px 18px; border-radius: 6px; margin: 20px 0 30px 0;">

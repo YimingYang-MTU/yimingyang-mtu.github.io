@@ -1,7 +1,7 @@
 ---
 title: "OSM to VISSIM: Automating Large-Scale Traffic Network Modeling"  
 excerpt: "Generating high-fidelity VISSIM networks from OSM, rapid setup of large-scale microscopic traffic simulations.<br/><img src='/images/portfolio7/vissim_network.png' width='600' height='300'>"  
-collection: portfolio  
+collection: projects  
 ---
 
 <div style="background: #f8f9fa; border-left: 4px solid #0056b3; padding: 14px 18px; border-radius: 6px; margin: 20px 0 30px 0;">

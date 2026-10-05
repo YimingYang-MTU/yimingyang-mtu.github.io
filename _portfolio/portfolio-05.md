@@ -1,7 +1,7 @@
 ---
 title: "Microscopic Traffic Safety Analysis and macro-level transportation analysis"
 excerpt: "Multi-scale traffic analysis combining microscopic safety metrics with macroscopic transportation trends.<br/> <img src='/images/portfolio5/lane_polygon_for_map_matching.png' width='500' height='300'>"
-collection: portfolio
+collection: projects
 ---
 
 <div style="font-size: 16px;" markdown="1">

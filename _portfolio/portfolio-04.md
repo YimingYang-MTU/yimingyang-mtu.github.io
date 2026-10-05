@@ -1,7 +1,7 @@
 ---
 title: "Unmanned Aerial Systems for Transportation Infrastructure"
 excerpt: "Large-scale drone imagery for transportation infrastructure assessment.<br/> <img src='/images/portfolio4/object_detection_tracking.png' width='500' height='300'>"
-collection: portfolio
+collection: projects
 ---
 
 <div style="font-size: 16px;" markdown="1">

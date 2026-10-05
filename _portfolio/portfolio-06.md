@@ -1,7 +1,7 @@
 ---
 title: "OSM to VISUM: Automated Infrastructure Generation for Transport Planning"  
 excerpt: "An automated toolchain converting OpenStreetMap into VISUM networks.<br/><img src='/images/portfolio6/osm2visum.png' width='600' height='300'>"  
-collection: portfolio  
+collection: projects  
 ---
 
 <div style="background: #f8f9fa; border-left: 4px solid #0056b3; padding: 14px 18px; border-radius: 6px; margin: 20px 0 30px 0;">
@@ -16,7 +16,7 @@ collection: portfolio
 
 In transportation planning, PTV VISUM is a standard tool for road network simulation, Origin-Destination (OD) matrix estimation, and traffic assignment. However, manually modeling large-scale networks beyond a few intersections is time-consuming and prone to errors.
 
-To overcome this bottleneck, I developed an automated toolchain leveraging OpenStreetMap (OSM)—an open-source geospatial database—to generate VISUM-ready networks for large geographic regions. By extracting raw OSM road topologies and converting them into VISUM-compatible formats, this approach dramatically reduces manual effort while maintaining high-fidelity network structure for simulation.
+To overcome this bottleneck, I developed an automated toolchain leveraging OpenStreetMap to generate VISUM-ready networks for large geographic regions. By extracting raw OSM road topologies and converting them into VISUM-compatible formats, this approach dramatically reduces manual effort while maintaining high-fidelity network structure for simulation.
 
 ---
 
