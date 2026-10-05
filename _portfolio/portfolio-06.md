@@ -14,45 +14,57 @@ collection: portfolio
 
 ## Motivation & Overview
 
-In transportation planning, **PTV VISUM** is a standard tool for road network simulation, Origin-Destination (OD) matrix estimation, and traffic assignment. However, manually modeling large-scale networks beyond a few intersections is time-consuming and prone to errors.
+In transportation planning, PTV VISUM is a standard tool for road network simulation, Origin-Destination (OD) matrix estimation, and traffic assignment. However, manually modeling large-scale networks beyond a few intersections is time-consuming and prone to errors.
 
-To overcome this bottleneck, I developed an automated toolchain leveraging **OpenStreetMap (OSM)**—an open-source geospatial database—to generate VISUM-ready networks for large geographic regions. By extracting raw OSM road topologies and converting them into VISUM-compatible formats, this approach dramatically reduces manual effort while maintaining high-fidelity network structure for simulation.
+To overcome this bottleneck, I developed an automated toolchain leveraging OpenStreetMap (OSM)—an open-source geospatial database—to generate VISUM-ready networks for large geographic regions. By extracting raw OSM road topologies and converting them into VISUM-compatible formats, this approach dramatically reduces manual effort while maintaining high-fidelity network structure for simulation.
 
 ---
 
-## Automated Pipeline Workflow
+## Automated Pipeline
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin: 24px 0;">
+<div style="display: flex; flex-direction: column; gap: 24px; margin: 24px 0;">
 
-  <div style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 16px; background: #ffffff;">
-    <h3 style="margin-top: 0; color: #0056b3; font-size: 1.05em;">1. Network Topology & Connectivity</h3>
-    <p style="font-size: 0.9em; color: #555;">Parses raw OSM nodes, ways, and tags into structured links while enforcing guaranteed topological connectivity so every path remains fully traversable for simulation.</p>
-    <figure style="margin: 12px 0 0 0; text-align: center;">
-      <img src="/images/portfolio6/osm2visum_node_link.png" alt="OSM Node and Link Topology" style="max-width: 100%; border-radius: 6px; border: 1px solid #eee;" />
+  <!-- Row 1 -->
+  <div style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 20px; background: #ffffff;">
+    <h3 style="margin-top: 0; color: #0056b3; font-size: 1.1em;">1. Network Topology &amp; Connectivity</h3>
+    <p style="font-size: 0.95em; color: #444; line-height: 1.6;">
+      Parses raw OSM nodes, ways, and tags into structured links while enforcing guaranteed topological connectivity so every path remains fully traversable for simulation.
+    </p>
+    <figure style="margin: 16px 0 0 0; text-align: center;">
+      <img src="/images/portfolio6/osm2visum_node_link.png" alt="OSM Node and Link Topology" style="max-width: 100%; width: 620px; border-radius: 6px; border: 1px solid #eee;" />
     </figure>
   </div>
 
-  <div style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 16px; background: #ffffff;">
-    <h3 style="margin-top: 0; color: #0056b3; font-size: 1.05em;">2. POI & Traffic Zone Generation</h3>
-    <p style="font-size: 0.9em; color: #555;">Extracts building/amenity polygons to compute centroids and surface areas, automatically partitioning OSM boundaries into grid-based or administrative traffic zones.</p>
-    <figure style="margin: 12px 0 0 0; text-align: center;">
-      <img src="/images/portfolio6/osm2visum_zones_1.png" alt="Traffic Zone Division" style="max-width: 100%; border-radius: 6px; border: 1px solid #eee;" />
+  <!-- Row 2 -->
+  <div style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 20px; background: #ffffff;">
+    <h3 style="margin-top: 0; color: #0056b3; font-size: 1.1em;">2. POI &amp; Traffic Zone Generation</h3>
+    <p style="font-size: 0.95em; color: #444; line-height: 1.6;">
+      Extracts building/amenity polygons to compute centroids and surface areas, automatically partitioning OSM boundaries into grid-based or administrative traffic zones.
+    </p>
+    <figure style="margin: 16px 0 0 0; text-align: center;">
+      <img src="/images/portfolio6/osm2visum_zones_1.png" alt="Traffic Zone Division" style="max-width: 100%; width: 620px; border-radius: 6px; border: 1px solid #eee;" />
     </figure>
   </div>
 
-  <div style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 16px; background: #ffffff;">
-    <h3 style="margin-top: 0; color: #0056b3; font-size: 1.05em;">3. Format Conversion & Validation</h3>
-    <p style="font-size: 0.9em; color: #555;">Exports node-link topologies to VISUM formats (<code>.net</code> / <code>.ver</code>). Validated via direct import into VISUM for equilibrium traffic assignment.</p>
-    <figure style="margin: 12px 0 0 0; text-align: center;">
-      <img src="/images/portfolio6/osm2visum_transportation_assignment_1.png" alt="VISUM Traffic Assignment" style="max-width: 100%; border-radius: 6px; border: 1px solid #eee;" />
+  <!-- Row 3 -->
+  <div style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 20px; background: #ffffff;">
+    <h3 style="margin-top: 0; color: #0056b3; font-size: 1.1em;">3. Format Conversion &amp; Validation</h3>
+    <p style="font-size: 0.95em; color: #444; line-height: 1.6;">
+      Exports node-link topologies to VISUM formats (<code>.net</code> / <code>.ver</code>). Validated via direct import into VISUM for equilibrium traffic assignment.
+    </p>
+    <figure style="margin: 16px 0 0 0; text-align: center;">
+      <img src="/images/portfolio6/osm2visum_transportation_assignment_1.png" alt="VISUM Traffic Assignment" style="max-width: 100%; width: 620px; border-radius: 6px; border: 1px solid #eee;" />
     </figure>
   </div>
 
-  <div style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 16px; background: #ffffff;">
-    <h3 style="margin-top: 0; color: #0056b3; font-size: 1.05em;">4. Rapid Scenario Testing</h3>
-    <p style="font-size: 0.9em; color: #555;">Enables rapid urban planning scenario testing (e.g., infrastructure expansion impact studies) while cutting manual modeling time from days down to minutes.</p>
-    <figure style="margin: 12px 0 0 0; text-align: center;">
-      <img src="/images/portfolio6/osm2visum_export.png" alt="VISUM Export and Scenario Testing" style="max-width: 100%; border-radius: 6px; border: 1px solid #eee;" />
+  <!-- Row 4 -->
+  <div style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 20px; background: #ffffff;">
+    <h3 style="margin-top: 0; color: #0056b3; font-size: 1.1em;">4. Rapid Scenario Testing</h3>
+    <p style="font-size: 0.95em; color: #444; line-height: 1.6;">
+      Enables rapid urban planning scenario testing (e.g., infrastructure expansion impact studies) while cutting manual modeling time from days down to minutes.
+    </p>
+    <figure style="margin: 16px 0 0 0; text-align: center;">
+      <img src="/images/portfolio6/osm2visum_export.png" alt="VISUM Export and Scenario Testing" style="max-width: 100%; width: 620px; border-radius: 6px; border: 1px solid #eee;" />
     </figure>
   </div>
 
