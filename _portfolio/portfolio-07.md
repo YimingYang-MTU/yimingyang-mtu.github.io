@@ -1,60 +1,71 @@
 ---
-title: "OSM to VISSIM: Automating Large-Scale Traffic Network Modeling"
-excerpt: "Automated toolchain parsing OpenStreetMap topology into high-fidelity PTV VISSIM microscopic traffic simulation networks (.inpx)."
-collection: portfolio
+title: "OSM to VISSIM: Automating Large-Scale Traffic Network Modeling"  
+excerpt: "Generating high-fidelity VISSIM networks from OSM, rapid setup of large-scale microscopic traffic simulations.<br/><img src='/images/portfolio7/vissim_network.png' width='600' height='300'>"  
+collection: portfolio  
 ---
 
-> **Project Summary**  
-> **Goal:** Eliminate manual link/connector construction for large PTV VISSIM microscopic simulation models.  
-> **Methodology:** Programmatic parsing of OSM tags + MUTCD design rules + spline connector generation.  
-> **Output:** Native, simulation-ready VISSIM `.inpx` network files.
+<div style="background: #f8f9fa; border-left: 4px solid #0056b3; padding: 14px 18px; border-radius: 6px; margin: 20px 0 30px 0;">
+  <p style="margin: 0; font-size: 0.98em; line-height: 1.6;">
+    <strong>Focus:</strong> Microscopic Traffic Simulation &amp; Network Automation &nbsp;|&nbsp; 
+    <strong>Tools:</strong> OpenStreetMap (OSM), PTV VISSIM (.inpx), Python &nbsp;|&nbsp; 
+    <strong>Standards:</strong> MUTCD Geometry Compliance
+  </p>
+</div>
 
-## Project Overview
+## Motivation & Overview
 
-In microscopic traffic simulation, **PTV VISSIM** specializes in modeling complex, dynamic interactions between vehicles, pedestrians, and infrastructure. VISSIM excels at detailed scenarios: signal timing, intersection performance, and connected/autonomous vehicle testing. 
+In microscopic traffic simulation, PTV VISSIM specializes in modeling complex, dynamic interactions among vehicles, pedestrians, and signal infrastructure. While VISSIM excels at detailed scenarios—such as signal timing optimization, intersection performance evaluation, and connected/autonomous vehicle (CAV) testing—manually constructing large networks with lane-level geometry is exceptionally labor-intensive.
 
-However, manually constructing large networks—with precise lane geometries, signal heads, and driver behavior parameters—is labor-intensive. To automate this, I developed a software pipeline that converts OSM road topology into VISSIM-compatible networks, preserving key microscopic features and enabling rapid model generation for corridor studies or city-scale simulations.
+To streamline this process, I developed an automated pipeline that converts OpenStreetMap road topology into VISSIM-compatible networks while preserving critical microscopic parameters. This methodology enables the rapid generation of high-resolution models for corridor studies and city-scale simulations, maintaining VISSIM’s high fidelity in emulating real-world traffic dynamics.
 
 ---
 
-## Technical Workflow
+## Automated Pipeline
 
-<div style="max-width: 680px; margin: 30px auto; display: flex; flex-direction: column; gap: 28px;">
+<div style="display: flex; flex-direction: column; gap: 24px; margin: 24px 0;">
 
-  <!-- Step 1 -->
-  <div style="border: 1px solid #e1e4e8; border-radius: 8px; background: #ffffff; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
-    <h3 style="margin: 0 0 10px 0; color: #0056b3; font-size: 1.1em;">Step 1: Intersection Dimensioning & MUTCD Standards</h3>
-    <p style="margin: 0 0 12px 0; font-size: 0.95em; color: #444;">Accurate intersection modeling relies on three key factors: junction control type, approach lane counts (parsed from OSM <code>lanes</code> or inferred from road class), and posted speed limits (from <code>maxspeed</code> tags). MUTCD design templates provide standard lane widths, corner radii, and stop bar placements.</p>
-    <div style="height: 280px; display: flex; align-items: center; justify-content: center; background: #fafafa; border-radius: 6px; border: 1px solid #f0f0f0;">
-      <img src="/images/portfolio7/vissim_intersection_design.png" alt="Intersection Design" style="max-height: 100%; max-width: 100%; object-fit: contain;" />
-    </div>
+  <!-- Row 1 -->
+  <div style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 20px; background: #ffffff;">
+    <h3 style="margin-top: 0; color: #0056b3; font-size: 1.1em;">1. Intersection Dimensioning &amp; Standardized Layouts</h3>
+    <p style="font-size: 0.95em; color: #444; line-height: 1.6;">
+      Dimensioning is calculated using three key factors: intersection control type (signalized, stop-controlled, roundabout), approach lane counts (from OSM tags or road classification), and posted speed limits. Layouts incorporate <strong>MUTCD (Manual on Uniform Traffic Control Devices)</strong> design standards for accurate lane widths, corner radii, and stop bar placements.
+    </p>
+    <figure style="margin: 16px 0 0 0; text-align: center;">
+      <img src="/images/portfolio7/vissim_intersection_design.png" alt="Intersection Design and Geometry" style="max-width: 100%; width: 620px; border-radius: 6px; border: 1px solid #eee;" />
+    </figure>
   </div>
 
-  <!-- Step 2 -->
-  <div style="border: 1px solid #e1e4e8; border-radius: 8px; background: #ffffff; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
-    <h3 style="margin: 0 0 10px 0; color: #0056b3; font-size: 1.1em;">Step 2: Spline-Based Connector Generation</h3>
-    <p style="margin: 0 0 12px 0; font-size: 0.95em; color: #444;">Spline-based modeling programmatically constructs VISSIM intersection connectors to smoothly represent diverse vehicle movements, including through paths, left/right turns, and complex turning radii.</p>
-    <div style="height: 280px; display: flex; align-items: center; justify-content: center; background: #fafafa; border-radius: 6px; border: 1px solid #f0f0f0;">
-      <img src="/images/portfolio7/vissim_intersection_connector.png" alt="Connector Generation" style="max-height: 100%; max-width: 100%; object-fit: contain;" />
-    </div>
+  <!-- Row 2 -->
+  <div style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 20px; background: #ffffff;">
+    <h3 style="margin-top: 0; color: #0056b3; font-size: 1.1em;">2. Spline-Based Connector Generation</h3>
+    <p style="font-size: 0.95em; color: #444; line-height: 1.6;">
+      Utilizes spline-based geometric modeling to generate smooth VISSIM intersection connectors. This accurately represents various movement maneuvers, including straight-through paths, left/right turns, and complex irregular turning trajectories.
+    </p>
+    <figure style="margin: 16px 0 0 0; text-align: center;">
+      <img src="/images/portfolio7/vissim_intersection_connector.png" alt="Spline-Based Intersection Connectors" style="max-width: 100%; width: 620px; border-radius: 6px; border: 1px solid #eee;" />
+    </figure>
   </div>
 
-  <!-- Step 3 -->
-  <div style="border: 1px solid #e1e4e8; border-radius: 8px; background: #ffffff; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
-    <h3 style="margin: 0 0 10px 0; color: #0056b3; font-size: 1.1em;">Step 3: Adaptive Link & Alignment Processing</h3>
-    <p style="margin: 0 0 12px 0; font-size: 0.95em; color: #444;">Microscopic accuracy requires precise modeling of both intersection connectors and mid-block link segments. The pipeline adaptively handles link types ranging from straight geometric corridors to complex curved alignments.</p>
-    <div style="height: 280px; display: flex; align-items: center; justify-content: center; background: #fafafa; border-radius: 6px; border: 1px solid #f0f0f0;">
-      <img src="/images/portfolio7/vissim_intersection_link.png" alt="Link Alignment" style="max-height: 100%; max-width: 100%; object-fit: contain;" />
-    </div>
+  <!-- Row 3 -->
+  <div style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 20px; background: #ffffff;">
+    <h3 style="margin-top: 0; color: #0056b3; font-size: 1.1em;">3. Link Topology &amp; Alignment Processing</h3>
+    <p style="font-size: 0.95em; color: #444; line-height: 1.6;">
+      Adaptively processes inter-intersection links alongside interior connectors. Handles alignments ranging from standard grid geometries to complex curved/irregular roadways, ensuring network-wide topological fidelity.
+    </p>
+    <figure style="margin: 16px 0 0 0; text-align: center;">
+      <img src="/images/portfolio7/vissim_intersection_link.png" alt="Link and Connector Alignment" style="max-width: 100%; width: 620px; border-radius: 6px; border: 1px solid #eee;" />
+    </figure>
   </div>
 
-  <!-- Step 4 -->
-  <div style="border: 1px solid #e1e4e8; border-radius: 8px; background: #ffffff; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
-    <h3 style="margin: 0 0 10px 0; color: #0056b3; font-size: 1.1em;">Step 4: Native .inpx Export & Direct Execution</h3>
-    <p style="margin: 0 0 12px 0; font-size: 0.95em; color: #444;">Outputs ready-to-run files in standard PTV VISSIM format (<code>.inpx</code>). Networks can be imported directly into VISSIM for immediate simulation without manual cleanup steps.</p>
-    <div style="height: 280px; display: flex; align-items: center; justify-content: center; background: #fafafa; border-radius: 6px; border: 1px solid #f0f0f0;">
-      <img src="/images/portfolio7/vissim_network_simulation.png" alt="Network Simulation" style="max-height: 100%; max-width: 100%; object-fit: contain;" />
-    </div>
+  <!-- Row 4 -->
+  <div style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 20px; background: #ffffff;">
+    <h3 style="margin-top: 0; color: #0056b3; font-size: 1.1em;">4. Native VISSIM Export (.inpx) &amp; Execution</h3>
+    <p style="font-size: 0.95em; color: #444; line-height: 1.6;">
+      Generates native <code>.inpx</code> network files that can be directly opened and executed inside PTV VISSIM without requiring manual post-processing or manual geometric corrections.
+    </p>
+    <figure style="margin: 16px 0 0 0; text-align: center;">
+      <img src="/images/portfolio7/vissim_network_simulation.png" alt="VISSIM Network Simulation Output" style="max-width: 100%; width: 620px; border-radius: 6px; border: 1px solid #eee;" />
+    </figure>
   </div>
 
 </div>
