@@ -160,7 +160,7 @@ I am a Postdoctoral Researcher at Oklahoma State University, working in the Scho
     box-shadow: 0 0 0 2px #000203;
   }
   .timeline-date {
-    font-size: 0.82rem;
+    font-size: 1.00rem;
     font-weight: 700;
     color: #07869c;
     letter-spacing: 0.5px;
@@ -168,26 +168,26 @@ I am a Postdoctoral Researcher at Oklahoma State University, working in the Scho
     margin-bottom: 4px;
   }
   .timeline-role {
-    font-size: 1.15rem;
+    font-size: 1.00rem;
     font-weight: 700;
     color: #0f172a;
     margin: 0 0 2px 0;
   }
   .timeline-institution {
-    font-size: 0.95rem;
+    font-size: 1.00rem;
     font-weight: 600;
     color: #475569;
     margin-bottom: 10px;
   }
   .timeline-institution a {
-    color: #0366d6;
+    color: #07869c;
     text-decoration: none;
   }
   .timeline-institution a:hover {
     text-decoration: underline;
   }
   .timeline-body {
-    font-size: 0.92rem;
+    font-size: 1.00rem;
     color: #334155;
     line-height: 1.55;
   }
@@ -207,11 +207,11 @@ I am a Postdoctoral Researcher at Oklahoma State University, working in the Scho
   .tag {
     display: inline-block;
     padding: 2px 9px;
-    font-size: 0.78rem;
+    font-size: 1.00rem;
     font-weight: 600;
     border-radius: 12px;
     background-color: #e0f2fe;
-    color: #0369a1;
+    color: #07869c;
     border: 1px solid #bae6fd;
   }
 </style>
@@ -272,15 +272,15 @@ I am a Postdoctoral Researcher at Oklahoma State University, working in the Scho
   <!-- Stage 3: Chang'an University -->
   <div class="timeline-card">
     <div class="timeline-dot"></div>
-    <div class="timeline-date">Prior Stage</div>
-    <h3 class="timeline-role">B.S. & M.S. Research Focus</h3>
+    <div class="timeline-date">2017 - 2020</div>
+    <h3 class="timeline-role">M.S. in Control Science & Engineering</h3>
     <div class="timeline-institution">
       Chang'an University &bull; School of Electrical and Control Engineering
     </div>
     <div class="timeline-body">
       Focused on autonomous vehicle control, trajectory tracking, and connected and automated vehicle (CAV) platoon control.
       <ul>
-        <li><strong>Autonomous Vehicle Control:</strong> PID control for gas, brake, steering.</li> <li><strong>Trajectory TRracking:</strong> Purepursuit controller, Model Predictive Control (MPC).</li>
+        <li><strong>Autonomous Vehicle Control:</strong> PID control for gas, brake, steering.</li> <li><strong>Trajectory Tracking:</strong> Purepursuit controller, Model Predictive Control (MPC).</li>
         <li><strong>Platoon Control:</strong> Distributed Model Predictive Control (DMPC) and Deep Deterministic Policy Gradient (DDPG) reinforcement learning.</li>
       </ul>
     </div>
