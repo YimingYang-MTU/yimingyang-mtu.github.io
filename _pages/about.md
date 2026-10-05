@@ -99,7 +99,7 @@ redirect_from:
   <!-- ROW 2: 3 Medium Technical Work & Field Testing Images -->
   <div class="pyramid-row-2">
     <div class="pyramid-item">
-      <img src="/images/me/image_ADII_competition.jpg" alt="Field Testing" />
+      <img src="/images/me/CODMAX_test.jpg" alt="Field Testing" />
       <!--<div class="pyramid-caption">AutoDrive Competition</div> -->
     </div>
     <div class="pyramid-item">

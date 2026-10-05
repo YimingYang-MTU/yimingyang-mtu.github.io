@@ -37,7 +37,7 @@ collection: portfolio
     <div style="position: absolute; left: -18px; top: 6px; width: 13px; height: 13px; background-color: #ea6a2e; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ea6a2e;"></div>
     <h3 style="margin: 2px 0 8px 0; font-size: 22px; font-weight: bold;">Gen 5</h3>
     <ul style="margin: 2px 0 12px 0; padding-left: 20px;">
-      <li>Improved integration and protect</li>
+      <li>Improved integration and protection</li>
       <li>Aggressive driving on dirt, snow and ice</li>
     </ul>
     <img src="/images/portfolio2/Test_platform.png" alt="Test" style="max-width: 100%; width: 520px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" />
@@ -48,8 +48,8 @@ collection: portfolio
     <div style="position: absolute; left: -18px; top: 6px; width: 13px; height: 13px; background-color: #ea6a2e; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ea6a2e;"></div>
     <h3 style="margin: 2px 0 8px 0; font-size: 22px; font-weight: bold;">Gen 4</h3>
     <ul style="margin: 2px 0 12px 0; padding-left: 20px;">
-      <li>Real field test on snow and ice</li>
-      <li>Aggressive testing on snow and ice</li>
+      <li>Field test on snow and ice</li>
+      <li>Low-middle speed for safety</li>
     </ul>
     <img src="/images/portfolio2/codmax_gen4.jpg" alt="Steering Test" style="max-width: 100%; width: 520px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" />
   </div>
@@ -59,7 +59,7 @@ collection: portfolio
     <div style="position: absolute; left: -18px; top: 6px; width: 13px; height: 13px; background-color: #ea6a2e; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ea6a2e;"></div>
     <h3 style="margin: 2px 0 8px 0; font-size: 22px; font-weight: bold;">Gen 3</h3>
     <ul style="margin: 2px 0 12px 0; padding-left: 20px;">
-      <li>Use laptop with GPU for MPPI</li>
+      <li>Use laptop with GPU for MPPI implementation</li>
       <li>Vehicle-in-the-loop indoor testing</li>
     </ul>
     <img src="/images/portfolio2/codmax_gen3.jpg" alt="Trunk Rack" style="max-width: 100%; width: 500px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" />
