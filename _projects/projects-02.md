@@ -34,7 +34,7 @@ collection: projects
 
   <!-- Gen 5 -->
   <div style="position: relative; margin-bottom: 40px;">
-    <div style="position: absolute; left: -18px; top: 6px; width: 13px; height: 13px; background-color: #ea6a2e; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ea6a2e;"></div>
+    <div style="position: absolute; left: -20px; top: 5px; width: 13px; height: 13px; background-color: #ea6a2e; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ea6a2e;"></div>
     <h3 style="margin: 2px 0 8px 0; font-size: 22px; font-weight: bold;">Gen 5</h3>
     <ul style="margin: 2px 0 12px 0; padding-left: 20px;">
       <li>Improved integration and protection</li>
@@ -45,7 +45,7 @@ collection: projects
 
   <!-- Gen 4 -->
   <div style="position: relative; margin-bottom: 40px;">
-    <div style="position: absolute; left: -18px; top: 6px; width: 13px; height: 13px; background-color: #ea6a2e; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ea6a2e;"></div>
+    <div style="position: absolute; left: -20px; top: 5px; width: 13px; height: 13px; background-color: #ea6a2e; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ea6a2e;"></div>
     <h3 style="margin: 2px 0 8px 0; font-size: 22px; font-weight: bold;">Gen 4</h3>
     <ul style="margin: 2px 0 12px 0; padding-left: 20px;">
       <li>Field test on snow and ice</li>
@@ -56,7 +56,7 @@ collection: projects
 
   <!-- Gen 3 -->
   <div style="position: relative; margin-bottom: 40px;">
-    <div style="position: absolute; left: -18px; top: 6px; width: 13px; height: 13px; background-color: #ea6a2e; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ea6a2e;"></div>
+    <div style="position: absolute; left: -20px; top: 5px; width: 13px; height: 13px; background-color: #ea6a2e; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ea6a2e;"></div>
     <h3 style="margin: 2px 0 8px 0; font-size: 22px; font-weight: bold;">Gen 3</h3>
     <ul style="margin: 2px 0 12px 0; padding-left: 20px;">
       <li>Use laptop with GPU for MPPI implementation</li>
@@ -67,7 +67,7 @@ collection: projects
 
   <!-- Gen 2 -->
   <div style="position: relative; margin-bottom: 40px;">
-    <div style="position: absolute; left: -18px; top: 6px; width: 13px; height: 13px; background-color: #ea6a2e; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ea6a2e;"></div>
+    <div style="position: absolute; left: -20px; top: 5px; width: 13px; height: 13px; background-color: #ea6a2e; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ea6a2e;"></div>
     <h3 style="margin: 2px 0 8px 0; font-size: 22px; font-weight: bold;">Gen 2</h3>
     <ul style="margin: 2px 0 12px 0; padding-left: 20px;">
       <li>Explore and test different hardwares</li>
@@ -78,7 +78,7 @@ collection: projects
 
   <!-- Gen 1 -->
   <div style="position: relative;">
-    <div style="position: absolute; left: -18px; top: 6px; width: 13px; height: 13px; background-color: #ea6a2e; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ea6a2e;"></div>
+    <div style="position: absolute; left: -20px; top: 5px; width: 13px; height: 13px; background-color: #ea6a2e; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #ea6a2e;"></div>
     <h3 style="margin: 2px 0 8px 0; font-size: 22px; font-weight: bold;">Gen 1</h3>
     <ul style="margin: 2px 0 12px 0; padding-left: 20px;">
       <li>1:5 scale electric chassis converted from gas</li>
