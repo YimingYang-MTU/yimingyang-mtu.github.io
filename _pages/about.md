@@ -126,7 +126,7 @@ redirect_from:
 
 </div>
 
-I am a Postdoctoral Researcher at Oklahoma State University, working in the School of Civil and Environmental Engineering with. My research spans Rural Automated Vehicles (RAVs), Foundation Models, robust perception in adverse weather and Field Robotics.
+I am a Postdoctoral Researcher at Oklahoma State University, working in the School of Civil and Environmental Engineering. My research spans Rural Automated Vehicles (RAVs), Foundation Models, robust perception in adverse weather and Field Robotics.
 
 <style>
   /* Vertical Research Timeline Styling */
